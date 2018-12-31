@@ -31,9 +31,6 @@
       <image:loc>http://iamlifechurch.org/images/serve.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/life%20church.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://iamlifechurch.org/images/getin1.png</image:loc>
     </image:image>
     <image:image>
@@ -41,6 +38,9 @@
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/img9536561-crop-u7966.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/lifechurch4.png</image:loc>
     </image:image>
   </url>
   <url>
