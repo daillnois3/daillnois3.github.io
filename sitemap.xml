@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://iamlifechurch.org/index.html</loc>
-    <lastmod>2018-12-30</lastmod>
+    <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/index.html"/>
@@ -42,41 +42,13 @@
     <image:image>
       <image:loc>http://iamlifechurch.org/images/lifechurch4.png</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>http://iamlifechurch.org/testimony.html</loc>
-    <lastmod>2018-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/testimony.html"/>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/worship1.png</image:loc>
     </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://iamlifechurch.org/phone/home1.html</loc>
-    <lastmod>2018-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://iamlifechurch.org/phone/home-copy-copy.html</loc>
-    <lastmod>2018-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://iamlifechurch.org/get-involved.html</loc>
-    <lastmod>2018-12-30</lastmod>
+    <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/get-involved.html"/>
@@ -90,18 +62,21 @@
       <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/getinvolved3.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://iamlifechurch.org/images/getinvolved2.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/getinvolved4.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/minister.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://iamlifechurch.org/prayer.html</loc>
-    <lastmod>2018-12-30</lastmod>
+    <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/prayer.html"/>
@@ -125,102 +100,14 @@
     </image:image>
   </url>
   <url>
-    <loc>http://iamlifechurch.org/give.html</loc>
-    <lastmod>2018-12-30</lastmod>
+    <loc>http://iamlifechurch.org/phone/give.html</loc>
+    <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/give.html"/>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://iamlifechurch.org/events.html</loc>
-    <lastmod>2018-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/events.html"/>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://iamlifechurch.org/contact-us.html</loc>
-    <lastmod>2018-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/contact-us.html"/>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://iamlifechurch.org/about-us.html</loc>
-    <lastmod>2018-12-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/about-us.html"/>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/joshua-ness-109309-unsplash-crop-u7789.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/aboutbkgrnd-crop-u7792.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/barr2.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/drbarr.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/erica2.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/meetourleaders.png</image:loc>
-    </image:image>
   </url>
   <url>
     <loc>http://iamlifechurch.org/study.html</loc>
-    <lastmod>2018-12-30</lastmod>
+    <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/study.html"/>
@@ -262,14 +149,150 @@
     </image:image>
   </url>
   <url>
+    <loc>http://iamlifechurch.org/phone/home1.html</loc>
+    <lastmod>2018-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://iamlifechurch.org/phone/home-copy-copy.html</loc>
+    <lastmod>2018-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://iamlifechurch.org/contact-us.html</loc>
+    <lastmod>2018-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/contact-us.html"/>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/contact1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/img9536561-crop-u8904.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/aboutbkgrnd-crop-u8844.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://iamlifechurch.org/testimony.html</loc>
+    <lastmod>2018-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/testimony.html"/>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/testimony.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/sharetestimony.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://iamlifechurch.org/about-us.html</loc>
+    <lastmod>2018-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/about-us.html"/>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/joshua-ness-109309-unsplash-crop-u7789.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/drbarr.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/erica2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/meetourleaders.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/barrs7.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://iamlifechurch.org/events.html</loc>
+    <lastmod>2018-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/events.html"/>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://iamlifechurch.org/assets/give1.png</loc>
+    <lastmod>2018-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://iamlifechurch.org/assets/joshua-ness-109309-unsplash.jpg</loc>
     <lastmod>2018-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://iamlifechurch.org/assets/give3.png</loc>
+    <lastmod>2018-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://iamlifechurch.org/assets/bst.png</loc>
     <lastmod>2018-12-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://iamlifechurch.org/assets/give2.png</loc>
+    <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
