@@ -2,9 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://iamlifechurch.org/index.html</loc>
-    <lastmod>2018-12-31</lastmod>
+    <lastmod>2019-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/index.html"/>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
     </image:image>
@@ -51,6 +52,7 @@
     <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/prayer.html"/>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
     </image:image>
@@ -77,6 +79,7 @@
     <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/testimony.html"/>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
     </image:image>
@@ -103,6 +106,7 @@
     <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/events.html"/>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
     </image:image>
@@ -151,6 +155,7 @@
     <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/contact-us.html"/>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
     </image:image>
@@ -179,6 +184,7 @@
     <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/get-involved.html"/>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
     </image:image>
@@ -208,6 +214,7 @@
     <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/about-us.html"/>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
     </image:image>
@@ -239,9 +246,10 @@
   </url>
   <url>
     <loc>http://iamlifechurch.org/study.html</loc>
-    <lastmod>2018-12-31</lastmod>
+    <lastmod>2019-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/study.html"/>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
     </image:image>
