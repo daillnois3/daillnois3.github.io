@@ -16,22 +16,27 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "prayer.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "prayer.css"], "outOfDate":[]};
 </script>
   
   <link media="only screen and (max-width: 370px)" rel="alternate" href="http://iamlifechurch.org/phone/prayer.html"/>
   <title>Prayer</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3813440122"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=204246220"/>
-  <link rel="stylesheet" type="text/css" href="css/prayer.css?crc=26867967" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=448536283"/>
+  <link rel="stylesheet" type="text/css" href="css/prayer.css?crc=3990208151" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=83773353"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_prayer.css?crc=4103597335" id="nomq_pagesheet"/>
+  <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
   <script src="https://webfonts.creativecloud.com/dosis:n3,n7:default.js" type="text/javascript"></script>
-  <script src="https://use.typekit.net/ik/MCTjVDhVTHKUav4EqLcZVz7X4XOZ0vAFg7nGADyfw7IfeGXgfOPe9sJGwQwkFDqkFBvtZQ63wQJk5QbtFc935AwtjRqkZcZKFDJXjcbDZ2JXwUG_HKoTjAuC-AZ8jhyuScFGOcNkZkUTjAuC-AZ8jhyuScFGOcNkZkUaiaS0-ABlde8cZAFGiW4R-fozScSKgagzSYgTd1w7f6K4TbJbMg62JM4HgIuuShAbMZnbn5IB.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/HM6ZjXwy8dBs_e-lwu9VZTC_MaAGfLFr07nXZEKguHSfeGXgfOPe9sJGwQwkFDqkFBNqwAmRZRMuF2JtZRqDZRFcF2bk5QqXF2S3F2bkwQbtZgG_HKoTjAuC-AZ8jhyuScFGOcNkZkUTjAuC-AZ8jhyuScFGOcNkZkUaiaS0-ABlde8cZAFGiW4R-fozScSKgagzSYgTd1w7f6K4TbJbMg62JM4HgIuuShAbM-YTnpIB.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -51,78 +56,136 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  
 
   
-  <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu5765"><!-- group -->
-    <div class="browser_width grpelem" id="u5765-bw">
-     <div id="u5765"><!-- group -->
-      <div class="clearfix" id="u5765_align_to_page">
-       <div class="clip_frame grpelem" id="u4112"><!-- image -->
-        <img class="block" id="u4112_img" src="images/life2.png?crc=3999926010" alt="" data-heightwidthratio="0.255" data-image-width="200" data-image-height="51"/>
-       </div>
-       <div class="clearfix grpelem" id="u4114-4"><!-- content -->
-        <p id="u4114-2"><span class="Menu-Buttons" id="u4114">ABOUT US</span></p>
-       </div>
-       <div class="clearfix grpelem" id="pu4105-4"><!-- column -->
-        <a class="nonblock nontext clearfix colelem" id="u4105-4" href="get-involved.html"><!-- content --><p id="u4105-2"><span class="Menu-Buttons" id="u4105">GET INVOLVED</span></p></a>
-        <div class="size_fixed colelem" id="u9430" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
-         
-
+  <div class="breakpoint active" id="bp_infinity" data-min-width="981"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- group -->
+    <div class="clearfix grpelem" id="pu5765"><!-- group -->
+     <div class="browser_width grpelem" id="u5765-bw">
+      <div id="u5765"><!-- group -->
+       <div class="clearfix" id="u5765_align_to_page">
+        <div class="clip_frame grpelem" id="u4112"><!-- image -->
+         <img class="block temp_no_img_src" id="u4112_img" data-orig-src="images/life2.png?crc=3999926010" alt="" data-heightwidthratio="0.255" data-image-width="200" data-image-height="51" src="images/blank.gif?crc=4208392903"/>
         </div>
+        <div class="clearfix grpelem shared_content" id="u4114-4" data-content-guid="u4114-4_content"><!-- content -->
+         <p id="u4114-2"><span class="Menu-Buttons" id="u4114">ABOUT US</span></p>
+        </div>
+        <div class="clearfix grpelem shared_content" id="pu4105-4" data-content-guid="pu4105-4_content"><!-- column -->
+         <a class="nonblock nontext clearfix colelem" id="u4105-4" href="get-involved.html"><!-- content --><p id="u4105-2"><span class="Menu-Buttons" id="u4105">GET INVOLVED</span></p></a>
+         <div class="size_fixed colelem" id="u9430" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+          
+
+         </div>
+        </div>
+        <a class="nonblock nontext MuseLinkActive clearfix grpelem shared_content" id="u4106-4" href="prayer.html" data-content-guid="u4106-4_content"><!-- content --><p id="u4106-2"><span class="Menu-Buttons" id="u4106">PRAYER</span></p></a>
+        <a class="nonblock nontext clearfix grpelem shared_content" id="u4115-4" href="testimony.html" data-content-guid="u4115-4_content"><!-- content --><p id="u4115-2"><span class="Menu-Buttons" id="u4115">TESTIMONY</span></p></a>
+        <a class="nonblock nontext clearfix grpelem shared_content" id="u4116-4" href="events.html" data-content-guid="u4116-4_content"><!-- content --><p id="u4116-2"><span class="Menu-Buttons" id="u4116">EVENTS</span></p></a>
+        <a class="nonblock nontext MuseLinkActive clearfix grpelem shared_content" id="u4117-4" href="prayer.html" data-content-guid="u4117-4_content"><!-- content --><p id="u4117-2"><span class="Menu-Buttons" id="u4117">CONTACT</span></p></a>
+        <div class="clearfix grpelem shared_content" id="u4107-4" data-content-guid="u4107-4_content"><!-- content -->
+         <p id="u4107-2"><span class="Menu-Buttons" id="u4107">GIVE</span></p>
+        </div>
+        <a class="nonblock nontext clip_frame grpelem" id="u4108" href="https://www.facebook.com/iamlifechurchinternational"><!-- image --><img class="block temp_no_img_src" id="u4108_img" data-orig-src="images/facebook-logo-png-white-i6.png?crc=156772510" alt="" data-heightwidthratio="1" data-image-width="31" data-image-height="31" src="images/blank.gif?crc=4208392903"/></a>
+        <a class="nonblock nontext clip_frame grpelem" id="u4110" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?"><!-- image --><img class="block temp_no_img_src" id="u4110_img" data-orig-src="images/youtube.png?crc=394888956" alt="" data-heightwidthratio="1" data-image-width="30" data-image-height="30" src="images/blank.gif?crc=4208392903"/></a>
        </div>
-       <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u4106-4" href="prayer.html"><!-- content --><p id="u4106-2"><span class="Menu-Buttons" id="u4106">PRAYER</span></p></a>
-       <a class="nonblock nontext clearfix grpelem" id="u4115-4" href="testimony.html"><!-- content --><p id="u4115-2"><span class="Menu-Buttons" id="u4115">TESTIMONY</span></p></a>
-       <a class="nonblock nontext clearfix grpelem" id="u4116-4" href="events.html"><!-- content --><p id="u4116-2"><span class="Menu-Buttons" id="u4116">EVENTS</span></p></a>
-       <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u4117-4" href="prayer.html"><!-- content --><p id="u4117-2"><span class="Menu-Buttons" id="u4117">CONTACT</span></p></a>
-       <div class="clearfix grpelem" id="u4107-4"><!-- content -->
-        <p id="u4107-2"><span class="Menu-Buttons" id="u4107">GIVE</span></p>
-       </div>
-       <a class="nonblock nontext clip_frame grpelem" id="u4108" href="https://www.facebook.com/iamlifechurchinternational"><!-- image --><img class="block" id="u4108_img" src="images/facebook-logo-png-white-i6.png?crc=156772510" alt="" data-heightwidthratio="1" data-image-width="31" data-image-height="31"/></a>
-       <a class="nonblock nontext clip_frame grpelem" id="u4110" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?"><!-- image --><img class="block" id="u4110_img" src="images/youtube.png?crc=394888956" alt="" data-heightwidthratio="1" data-image-width="30" data-image-height="30"/></a>
       </div>
      </div>
-    </div>
-    <div class="clip_frame grpelem" id="u6317"><!-- image -->
-     <img class="block" id="u6317_img" src="images/prayer.jpg?crc=3827827844" alt="Life Church Prayer Request" title="Praying Man" data-heightwidthratio="0.6666666666666666" data-image-width="1437" data-image-height="958"/>
-    </div>
-    <a class="nonblock nontext clearfix grpelem" id="u6192-4" href="get-involved.html"><!-- content --><p id="u6192-2"><span class="Menu-Buttons" id="u6192">GET INVOLVED</span></p></a>
-    <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u6193-4" href="prayer.html"><!-- content --><p id="u6193-2"><span class="Menu-Buttons" id="u6193">PRAYER</span></p></a>
-    <a class="nonblock nontext clearfix grpelem" id="u6194-4" href="study.html"><!-- content --><p id="u6194-2"><span class="Menu-Buttons" id="u6194">STUDY</span></p></a>
-    <a class="nonblock nontext clip_frame grpelem" id="u6195" href="https://www.facebook.com/iamlifechurchinternational"><!-- image --><img class="block" id="u6195_img" src="images/facebook-logo-png-white-i6.png?crc=156772510" alt="" data-heightwidthratio="1" data-image-width="31" data-image-height="31"/></a>
-    <a class="nonblock nontext clip_frame grpelem" id="u6197" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?"><!-- image --><img class="block" id="u6197_img" src="images/youtube.png?crc=394888956" alt="" data-heightwidthratio="1" data-image-width="30" data-image-height="30"/></a>
-    <a class="nonblock nontext clip_frame grpelem" id="u6199" href="index.html"><!-- image --><img class="block" id="u6199_img" src="images/life2.png?crc=3999926010" alt="" data-heightwidthratio="0.255" data-image-width="200" data-image-height="51"/></a>
-    <a class="nonblock nontext clearfix grpelem" id="u6201-4" href="about-us.html"><!-- content --><p id="u6201-2"><span class="Menu-Buttons" id="u6201">ABOUT US</span></p></a>
-    <a class="nonblock nontext clearfix grpelem" id="u6202-4" href="testimony.html"><!-- content --><p id="u6202-2"><span class="Menu-Buttons" id="u6202">TESTIMONY</span></p></a>
-    <a class="nonblock nontext clearfix grpelem" id="u6203-4" href="events.html"><!-- content --><p id="u6203-2"><span class="Menu-Buttons" id="u6203">EVENTS</span></p></a>
-    <a class="nonblock nontext clearfix grpelem" id="u6204-4" href="contact-us.html"><!-- content --><p id="u6204-2"><span class="Menu-Buttons" id="u6204">CONTACT</span></p></a>
-    <div class="grpelem" id="u6338"><!-- custom html -->
-     <iframe src="https://services.cognitoforms.com/f/noEjlAXGEUGuRGotf2QwQg?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="529" width="100%"></iframe>
+     <div class="clip_frame grpelem" id="u6317"><!-- image -->
+      <img class="block temp_no_img_src" id="u6317_img" data-orig-src="images/prayer1437x958.jpg?crc=3786409342" alt="Life Church Prayer Request" title="Praying Man" data-heightwidthratio="0.6666666666666666" data-image-width="1437" data-image-height="958" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <a class="nonblock nontext clearfix grpelem shared_content" id="u6192-4" href="get-involved.html" data-content-guid="u6192-4_content"><!-- content --><p id="u6192-2"><span class="Menu-Buttons" id="u6192">GET INVOLVED</span></p></a>
+     <a class="nonblock nontext MuseLinkActive clearfix grpelem shared_content" id="u6193-4" href="prayer.html" data-content-guid="u6193-4_content"><!-- content --><p id="u6193-2"><span class="Menu-Buttons" id="u6193">PRAYER</span></p></a>
+     <a class="nonblock nontext clearfix grpelem shared_content" id="u6194-4" href="study.html" data-content-guid="u6194-4_content"><!-- content --><p id="u6194-2"><span class="Menu-Buttons" id="u6194">STUDY</span></p></a>
+     <a class="nonblock nontext clip_frame grpelem" id="u6195" href="https://www.facebook.com/iamlifechurchinternational"><!-- image --><img class="block temp_no_img_src" id="u6195_img" data-orig-src="images/facebook-logo-png-white-i6.png?crc=156772510" alt="" data-heightwidthratio="1" data-image-width="31" data-image-height="31" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame grpelem" id="u6197" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?"><!-- image --><img class="block temp_no_img_src" id="u6197_img" data-orig-src="images/youtube.png?crc=394888956" alt="" data-heightwidthratio="1" data-image-width="30" data-image-height="30" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame grpelem" id="u6199" href="index.html"><!-- image --><img class="block temp_no_img_src" id="u6199_img" data-orig-src="images/life2.png?crc=3999926010" alt="" data-heightwidthratio="0.255" data-image-width="200" data-image-height="51" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clearfix grpelem shared_content" id="u6201-4" href="about-us.html" data-content-guid="u6201-4_content"><!-- content --><p id="u6201-2"><span class="Menu-Buttons" id="u6201">ABOUT US</span></p></a>
+     <a class="nonblock nontext clearfix grpelem shared_content" id="u6202-4" href="testimony.html" data-content-guid="u6202-4_content"><!-- content --><p id="u6202-2"><span class="Menu-Buttons" id="u6202">TESTIMONY</span></p></a>
+     <a class="nonblock nontext clearfix grpelem shared_content" id="u6203-4" href="events.html" data-content-guid="u6203-4_content"><!-- content --><p id="u6203-2"><span class="Menu-Buttons" id="u6203">EVENTS</span></p></a>
+     <a class="nonblock nontext clearfix grpelem shared_content" id="u6204-4" href="contact-us.html" data-content-guid="u6204-4_content"><!-- content --><p id="u6204-2"><span class="Menu-Buttons" id="u6204">CONTACT</span></p></a>
+     <div class="grpelem shared_content" id="u6338" data-content-guid="u6338_content"><!-- custom html -->
+      <iframe src="https://services.cognitoforms.com/f/noEjlAXGEUGuRGotf2QwQg?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="529" width="100%"></iframe>
 <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
 
 
 
 
 
+     </div>
+     <div class="clearfix grpelem shared_content" id="u6355-4" data-content-guid="u6355-4_content"><!-- content -->
+      <p>Let us pray for you. Submit your request below and let the power of prayer impact your life.</p>
+     </div>
+     <div class="grpelem shared_content" id="u8901" data-content-guid="u8901_content"><!-- simple frame --></div>
     </div>
-    <div class="clearfix grpelem" id="u6355-4"><!-- content -->
-     <p>Let us pray for you. Submit your request below and let the power of prayer impact your life.</p>
+    <div id="u6345-wrapper">
+     <div class="clip_frame" id="u6345"><!-- image -->
+      <img class="block temp_no_img_src" id="u6345_img" data-orig-src="images/prayerrequest.png?crc=522103938" alt="Life Church Prayer Request" title="Life Church Prayer Request" data-heightwidthratio="0.30648330058939094" data-image-width="509" data-image-height="156" src="images/blank.gif?crc=4208392903"/>
+     </div>
     </div>
-    <div class="grpelem" id="u8901"><!-- simple frame --></div>
-   </div>
-   <div class="verticalspacer" data-offset-top="968" data-content-above-spacer="967" data-content-below-spacer="51" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="clearfix grpelem" id="pu6345"><!-- column -->
-    <div class="clip_frame colelem" id="u6345"><!-- image -->
-     <img class="block" id="u6345_img" src="images/prayerrequest.png?crc=522103938" alt="Life Church Prayer Request" title="Life Church Prayer Request" data-heightwidthratio="0.30648330058939094" data-image-width="509" data-image-height="156"/>
-    </div>
-    <div class="browser_width colelem" id="u3077-bw">
+    <div class="verticalspacer" data-offset-top="968" data-content-above-spacer="967" data-content-below-spacer="51" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="browser_width grpelem" id="u3077-bw">
      <div id="u3077"><!-- group -->
       <div class="clearfix" id="u3077_align_to_page">
-       <div class="clearfix grpelem" id="u3080-6"><!-- content -->
+       <div class="clearfix grpelem shared_content" id="u3080-6" data-content-guid="u3080-6_content"><!-- content -->
         <p id="u3080-2">Life Church International&nbsp;&nbsp;&nbsp;&nbsp; 2019</p>
         <p id="u3080-3">&nbsp;</p>
         <p>&nbsp;</p>
        </div>
        <div class="clip_frame grpelem" id="u3333"><!-- image -->
-        <img class="block" id="u3333_img" src="images/copyright.png?crc=3973042440" alt="" data-heightwidthratio="1" data-image-width="13" data-image-height="13"/>
+        <img class="block temp_no_img_src" id="u3333_img" data-orig-src="images/copyright.png?crc=3973042440" alt="" data-heightwidthratio="1" data-image-width="13" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_980" data-max-width="980"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu5765"><!-- group -->
+     <div class="browser_width grpelem temp_no_id" data-orig-id="u5765-bw">
+      <div class="temp_no_id" data-orig-id="u5765"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u5765_align_to_page">
+        <div class="clip_frame grpelem temp_no_id" data-orig-id="u4112"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/life2.png?crc=3999926010" alt="" data-heightwidthratio="0.25301204819277107" data-image-width="166" data-image-height="42" data-orig-id="u4112_img" src="images/blank.gif?crc=4208392903"/>
+        </div>
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u4114-4_content"><!-- placeholder node --></span>
+        <span class="clearfix grpelem placeholder" data-placeholder-for="pu4105-4_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext MuseLinkActive clearfix grpelem placeholder" data-placeholder-for="u4106-4_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u4115-4_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u4116-4_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext MuseLinkActive clearfix grpelem placeholder" data-placeholder-for="u4117-4_content"><!-- placeholder node --></span>
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u4107-4_content"><!-- placeholder node --></span>
+        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.facebook.com/iamlifechurchinternational" data-orig-id="u4108"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/facebook-logo-png-white-i6.png?crc=156772510" alt="" data-heightwidthratio="1" data-image-width="26" data-image-height="26" data-orig-id="u4108_img" src="images/blank.gif?crc=4208392903"/></a>
+        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?" data-orig-id="u4110"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/youtube.png?crc=394888956" alt="" data-heightwidthratio="1" data-image-width="25" data-image-height="25" data-orig-id="u4110_img" src="images/blank.gif?crc=4208392903"/></a>
+       </div>
+      </div>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u6317"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/prayer1307x871.jpg?crc=397168438" alt="Life Church Prayer Request" title="Praying Man" data-heightwidthratio="0.666156202143951" data-image-width="1306" data-image-height="870" data-orig-id="u6317_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6192-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext MuseLinkActive clearfix grpelem placeholder" data-placeholder-for="u6193-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6194-4_content"><!-- placeholder node --></span>
+     <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.facebook.com/iamlifechurchinternational" data-orig-id="u6195"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/facebook-logo-png-white-i6.png?crc=156772510" alt="" data-heightwidthratio="1" data-image-width="26" data-image-height="26" data-orig-id="u6195_img" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?" data-orig-id="u6197"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/youtube.png?crc=394888956" alt="" data-heightwidthratio="1" data-image-width="25" data-image-height="25" data-orig-id="u6197_img" src="images/blank.gif?crc=4208392903"/></a>
+     <a class="nonblock nontext clip_frame grpelem temp_no_id" href="index.html" data-orig-id="u6199"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/life2.png?crc=3999926010" alt="" data-heightwidthratio="0.25301204819277107" data-image-width="166" data-image-height="42" data-orig-id="u6199_img" src="images/blank.gif?crc=4208392903"/></a>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6201-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6202-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6203-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6204-4_content"><!-- placeholder node --></span>
+     <span class="grpelem placeholder" data-placeholder-for="u6338_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u6355-4_content"><!-- placeholder node --></span>
+     <span class="grpelem placeholder" data-placeholder-for="u8901_content"><!-- placeholder node --></span>
+    </div>
+    <div class="temp_no_id" data-orig-id="u6345-wrapper">
+     <div class="clip_frame temp_no_id" data-orig-id="u6345"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/prayerrequest.png?crc=522103938" alt="Life Church Prayer Request" title="Life Church Prayer Request" data-heightwidthratio="0.3073286052009456" data-image-width="423" data-image-height="130" data-orig-id="u6345_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="880" data-content-above-spacer="880" data-content-below-spacer="51" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="browser_width grpelem temp_no_id" data-orig-id="u3077-bw">
+     <div class="temp_no_id" data-orig-id="u3077"><!-- group -->
+      <div class="clearfix temp_no_id" data-orig-id="u3077_align_to_page">
+       <span class="clearfix grpelem placeholder" data-placeholder-for="u3080-6_content"><!-- placeholder node --></span>
+       <div class="clip_frame grpelem temp_no_id" data-orig-id="u3333"><!-- image -->
+        <img class="block temp_no_id temp_no_img_src" data-orig-src="images/copyright.png?crc=3973042440" alt="" data-heightwidthratio="1" data-image-width="11" data-image-height="11" data-orig-id="u3333_img" src="images/blank.gif?crc=4208392903"/>
        </div>
       </div>
      </div>
@@ -140,7 +203,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -148,7 +211,7 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 

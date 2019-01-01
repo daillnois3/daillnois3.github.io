@@ -1,38 +1,54 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="iamlifechurch.org" resolutions="1x" timestamp="1546347392043">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="iamlifechurch.org" resolutions="1x" timestamp="1546352106712">
   <folder name="phone">
     <folder name="css">
-      <file name="master_a-master.css" crc="4226839539" ref="phone>prayer:phone>testimony:phone>contact-us:phone>index:phone>study:phone>events:phone>about-us:phone>get-involved"/>
-      <file name="prayer.css" crc="364790886" ref="phone>prayer"/>
-      <file name="testimony.css" crc="364790886" ref="phone>testimony"/>
-      <file name="contact-us.css" crc="364790886" ref="phone>contact-us"/>
-      <file name="index.css" crc="161524881" ref="phone>index"/>
-      <file name="study.css" crc="364790886" ref="phone>study"/>
-      <file name="events.css" crc="364790886" ref="phone>events"/>
-      <file name="about-us.css" crc="364790886" ref="phone>about-us"/>
-      <file name="get-involved.css" crc="364790886" ref="phone>get-involved"/>
+      <file name="master_a-master.css" crc="65899903" ref="phone>prayer:phone>testimony:phone>contact-us:phone>index:phone>study:phone>events:phone>about-us:phone>get-involved"/>
+      <file name="prayer.css" crc="4069047081" ref="phone>prayer"/>
+      <file name="testimony.css" crc="4069047081" ref="phone>testimony"/>
+      <file name="contact-us.css" crc="4069047081" ref="phone>contact-us"/>
+      <file name="index.css" crc="75167577" ref="phone>index"/>
+      <file name="study.css" crc="4069047081" ref="phone>study"/>
+      <file name="events.css" crc="4069047081" ref="phone>events"/>
+      <file name="about-us.css" crc="4069047081" ref="phone>about-us"/>
+      <file name="get-involved.css" crc="4069047081" ref="phone>get-involved"/>
+      <file name="nomq_preview_master_a-master.css" crc="4226839539" ref="phone>study:phone>index:phone>prayer:phone>get-involved:phone>events:phone>about-us:phone>contact-us:phone>testimony"/>
+      <file name="nomq_study.css" crc="143392943" ref="phone>study"/>
+      <file name="nomq_index.css" crc="3804504933" ref="phone>index"/>
+      <file name="nomq_prayer.css" crc="143392943" ref="phone>prayer"/>
+      <file name="nomq_get-involved.css" crc="143392943" ref="phone>get-involved"/>
+      <file name="nomq_events.css" crc="143392943" ref="phone>events"/>
+      <file name="nomq_about-us.css" crc="143392943" ref="phone>about-us"/>
+      <file name="nomq_contact-us.css" crc="143392943" ref="phone>contact-us"/>
+      <file name="nomq_testimony.css" crc="143392943" ref="phone>testimony"/>
     </folder>
-    <file name="about-us.html" crc="4177574867" seo="true" mt="1546346913065" redirect="true"/>
-    <file name="get-involved.html" crc="4154246237" seo="true" mt="1546346913065" redirect="true"/>
-    <file name="prayer.html" crc="61108073" seo="true" mt="1546346913065" redirect="true"/>
-    <file name="testimony.html" crc="4015697718" seo="true" mt="1546346913065" redirect="true"/>
-    <file name="study.html" crc="287283781" seo="true" mt="1546346913065" redirect="true"/>
-    <file name="events.html" crc="4270384180" seo="true" mt="1546346913065" redirect="true"/>
-    <file name="contact-us.html" crc="301934725" seo="true" mt="1546346913065" redirect="true"/>
-    <file name="index.html" crc="3903231000" seo="true" mt="1546347379947" redirect="true"/>
+    <file name="about-us.html" crc="4183243031" seo="true" mt="1546348218300" redirect="true"/>
+    <file name="get-involved.html" crc="3836568986" seo="true" mt="1546348218300" redirect="true"/>
+    <file name="prayer.html" crc="3764011908" seo="true" mt="1546348218300" redirect="true"/>
+    <file name="testimony.html" crc="62715367" seo="true" mt="1546348218300" redirect="true"/>
+    <file name="study.html" crc="213238560" seo="true" mt="1546348218300" redirect="true"/>
+    <file name="events.html" crc="4123857577" seo="true" mt="1546348218300" redirect="true"/>
+    <file name="contact-us.html" crc="259189235" seo="true" mt="1546348218300" redirect="true"/>
+    <file name="index.html" crc="3848807844" seo="true" mt="1546348218300" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3813440122"/>
-    <file name="master_a-master.css" crc="185841524" ref="about-us:events:contact-us:index:get-involved:prayer:study:testimony"/>
+    <file name="master_a-master.css" crc="363498765" ref="about-us:events:contact-us:index:get-involved:prayer:study:testimony"/>
     <file name="nomq_preview_master_a-master.css" crc="284682425" ref="about-us:events:contact-us:index:get-involved:prayer:study:testimony"/>
-    <file name="about-us.css" crc="432550811" ref="about-us"/>
-    <file name="events.css" crc="367817626" ref="events"/>
-    <file name="contact-us.css" crc="433810399" ref="contact-us"/>
-    <file name="index.css" crc="4195712321" ref="index"/>
-    <file name="get-involved.css" crc="74127418" ref="get-involved"/>
-    <file name="prayer.css" crc="26867967" ref="prayer"/>
-    <file name="study.css" crc="297660340" ref="study"/>
-    <file name="nomq_study.css" crc="3791932120" ref="study"/>
-    <file name="testimony.css" crc="165468297" ref="testimony"/>
+    <file name="about-us.css" crc="4143217764" ref="about-us"/>
+    <file name="events.css" crc="3900184256" ref="events"/>
+    <file name="contact-us.css" crc="4031178881" ref="contact-us"/>
+    <file name="index.css" crc="3973804752" ref="index"/>
+    <file name="get-involved.css" crc="170787120" ref="get-involved"/>
+    <file name="prayer.css" crc="3990208151" ref="prayer"/>
+    <file name="study.css" crc="57020082" ref="study"/>
+    <file name="nomq_study.css" crc="3808555817" ref="study"/>
+    <file name="testimony.css" crc="4032314636" ref="testimony"/>
+    <file name="nomq_index.css" crc="27699267" ref="index"/>
+    <file name="nomq_prayer.css" crc="4103597335" ref="prayer"/>
+    <file name="nomq_get-involved.css" crc="485319414" ref="get-involved"/>
+    <file name="nomq_testimony.css" crc="295057519" ref="testimony"/>
+    <file name="nomq_about-us.css" crc="4093384120" ref="about-us"/>
+    <file name="nomq_events.css" crc="169449822" ref="events"/>
+    <file name="nomq_contact-us.css" crc="3928901079" ref="contact-us"/>
   </folder>
   <folder name="assets">
     <file name="joshua-ness-109309-unsplash.jpg" crc="4096021969" seo="true" mt="1546001103000"/>
@@ -48,7 +64,7 @@
     <file name="museconfig.js" crc="310584261" ref="get-involved:prayer:testimony:events:contact-us:study:index:about-us:phone>about-us:phone>get-involved:phone>prayer:phone>testimony:phone>study:phone>events:phone>contact-us:phone>index"/>
     <file name="jquery.watch.js" crc="51536988" ref="get-involved:prayer:testimony:events:contact-us:study:index:about-us:phone>about-us:phone>get-involved:phone>prayer:phone>testimony:phone>study:phone>events:phone>contact-us:phone>index"/>
     <file name="require.js" crc="7928878" ref="get-involved:prayer:testimony:events:contact-us:study:index:about-us:phone>about-us:phone>get-involved:phone>prayer:phone>testimony:phone>study:phone>events:phone>contact-us:phone>index"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="study"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="study:phone>about-us:phone>get-involved:phone>prayer:phone>testimony:phone>study:phone>events:phone>contact-us:phone>index:get-involved:prayer:testimony:events:contact-us:index:about-us"/>
     <file name="webpro.js" crc="4059564322" ref="about-us:events:phone>index"/>
     <file name="musewpslideshow.js" crc="3862962738" ref="about-us:events:phone>index"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="about-us:events:phone>index"/>
@@ -57,93 +73,201 @@
   <folder name="images">
     <file name="life2.png" crc="3999926010" seo="true" ref="get-involved:prayer:testimony:events:contact-us:study:index:about-us:phone>about-us:phone>get-involved:phone>prayer:phone>testimony:phone>study:phone>events:phone>contact-us:phone>index">
       <caption webpage="about-us" alt=""/>
-      <caption webpage="contact-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
       <caption webpage="testimony" alt=""/>
-      <caption webpage="give" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="home1" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
       <caption webpage="get-involved" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="events" alt=""/>
-      <caption webpage="study" alt=""/>
-      <caption webpage="home1" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="home-copy-copy" alt=""/>
+      <caption webpage="give" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="prayer" alt=""/>
+      <caption webpage="prayer" alt=""/>
+      <caption webpage="prayer" alt=""/>
+      <caption webpage="prayer" alt=""/>
+      <caption webpage="prayer" alt=""/>
       <caption webpage="prayer" alt=""/>
     </file>
     <file name="facebook-logo-png-white-i6.png" crc="156772510" seo="true" ref="get-involved:prayer:testimony:events:contact-us:study:index:about-us">
-      <caption webpage="study" alt=""/>
-      <caption webpage="study" alt=""/>
-      <caption webpage="study" alt=""/>
-      <caption webpage="study" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
       <caption webpage="prayer" alt=""/>
       <caption webpage="prayer" alt=""/>
+      <caption webpage="prayer" alt=""/>
+      <caption webpage="prayer" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
       <caption webpage="give" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="testimony" alt=""/>
-      <caption webpage="testimony" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="events" alt=""/>
-      <caption webpage="events" alt=""/>
-      <caption webpage="get-involved" alt=""/>
-      <caption webpage="get-involved" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
       <caption webpage="contact-us" alt=""/>
       <caption webpage="contact-us" alt=""/>
     </file>
     <file name="youtube.png" crc="394888956" seo="true" ref="get-involved:prayer:testimony:events:contact-us:study:index:about-us">
-      <caption webpage="study" alt=""/>
-      <caption webpage="study" alt=""/>
-      <caption webpage="study" alt=""/>
-      <caption webpage="study" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
       <caption webpage="prayer" alt=""/>
       <caption webpage="prayer" alt=""/>
+      <caption webpage="prayer" alt=""/>
+      <caption webpage="prayer" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
       <caption webpage="give" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
-      <caption webpage="testimony" alt=""/>
-      <caption webpage="testimony" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="events" alt=""/>
-      <caption webpage="events" alt=""/>
-      <caption webpage="get-involved" alt=""/>
-      <caption webpage="get-involved" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
       <caption webpage="contact-us" alt=""/>
       <caption webpage="contact-us" alt=""/>
     </file>
     <file name="getinvolved2.png" crc="302453151" seo="true" ref="get-involved">
       <caption webpage="get-involved" alt="Get Involved with Ministry"/>
+      <caption webpage="get-involved" alt="Get Involved with Ministry"/>
     </file>
     <file name="copyright.png" crc="3973042440" seo="true" ref="get-involved:prayer:testimony:events:contact-us:study:index:about-us:phone>about-us:phone>get-involved:phone>prayer:phone>testimony:phone>study:phone>events:phone>contact-us:phone>index">
       <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
       <caption webpage="contact-us" alt=""/>
-      <caption webpage="testimony" alt=""/>
-      <caption webpage="give" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
+      <caption webpage="get-involved" alt=""/>
       <caption webpage="get-involved" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="events" alt=""/>
-      <caption webpage="study" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="events" alt=""/>
+      <caption webpage="give" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="testimony" alt=""/>
+      <caption webpage="prayer" alt=""/>
+      <caption webpage="prayer" alt=""/>
+      <caption webpage="prayer" alt=""/>
       <caption webpage="prayer" alt=""/>
     </file>
-    <file name="prayer.jpg" crc="3827827844" seo="true" ref="prayer">
-      <caption webpage="prayer" alt="Life Church Prayer Request"/>
-    </file>
     <file name="prayerrequest.png" crc="522103938" seo="true" ref="prayer">
+      <caption webpage="prayer" alt="Life Church Prayer Request"/>
       <caption webpage="prayer" alt="Life Church Prayer Request"/>
     </file>
     <file name="u4193-4.png" crc="434181461" ref="study"/>
     <file name="bhub.png" crc="307721868" seo="true" ref="study">
       <caption webpage="study" alt=""/>
       <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
     </file>
     <file name="bhub1.jpg" crc="535180273" seo="true" ref="study">
+      <caption webpage="study" alt=""/>
       <caption webpage="study" alt=""/>
       <caption webpage="study" alt=""/>
     </file>
     <file name="bibg.png" crc="8174861" seo="true" ref="study">
       <caption webpage="study" alt=""/>
       <caption webpage="study" alt=""/>
+      <caption webpage="study" alt=""/>
     </file>
     <file name="bst.jpg" crc="310429156" seo="true" ref="study">
+      <caption webpage="study" alt=""/>
       <caption webpage="study" alt=""/>
       <caption webpage="study" alt=""/>
     </file>
@@ -156,29 +280,36 @@
     <file name="biblestudytools5.png" crc="3780509969" seo="true" ref="study">
       <caption webpage="study" alt="Life Church Bible Study Tools"/>
       <caption webpage="study" alt="Life Church Bible Study Tools"/>
+      <caption webpage="study" alt="Life Church Bible Study Tools"/>
     </file>
     <file name="findwhatyou.png" crc="149696603" seo="true" ref="study">
       <caption webpage="study" alt="Bible Study Tools - Find What You've Been Looking For"/>
       <caption webpage="study" alt="Bible Study Tools - Find What You've Been Looking For"/>
+      <caption webpage="study" alt="Bible Study Tools - Find What You've Been Looking For"/>
     </file>
     <file name="biblestudygrn340x105.jpg" crc="391182495" seo="true" ref="study">
+      <caption webpage="study" alt="Jesus - Find what you've been looking for"/>
       <caption webpage="study" alt="Jesus - Find what you've been looking for"/>
     </file>
     <file name="u4193-42.png" crc="274543109" ref="study"/>
     <file name="u4332-52.png" crc="255694920" ref="study"/>
     <file name="u4357-52.png" crc="460409515" ref="study"/>
     <file name="u4395-42.png" crc="45519198" ref="study"/>
-    <file name="blank.gif" crc="4208392903" ref="study:events"/>
+    <file name="blank.gif" crc="4208392903" ref="study:events:phone>about-us:phone>get-involved:phone>prayer:phone>testimony:phone>study:phone>events:phone>contact-us:phone>index:get-involved:prayer:testimony:contact-us:index:about-us"/>
     <file name="handback.jpg" crc="4128992791" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="stody.png" crc="3933430533" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="testify.png" crc="3791110450" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="serve.png" crc="4138287042" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="u5689.png" crc="31067862" ref="index"/>
@@ -186,43 +317,49 @@
     <file name="u5740-4.png" crc="4198671137" ref="index"/>
     <file name="getin1.png" crc="129822251" seo="true" ref="index:phone>index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="with us.png" crc="3771952265" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="img9536561-crop-u7966.jpg" crc="3832952122" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="joshua-ness-109309-unsplash-crop-u7789.jpg" crc="3874122903" seo="true" ref="about-us">
+    <file name="joshua-ness-109309-unsplash-crop-u7789.jpg" crc="3967959674" seo="true" ref="about-us">
       <caption webpage="about-us" alt=""/>
     </file>
     <file name="drbarr.png" crc="3778157546" seo="true" ref="about-us">
       <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
     </file>
     <file name="erica2.jpg" crc="170237441" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
       <caption webpage="about-us" alt=""/>
     </file>
     <file name="meetourleaders.png" crc="4197797388" seo="true" ref="about-us">
       <caption webpage="about-us" alt="About Us - Meet Our Leaders"/>
+      <caption webpage="about-us" alt="About Us - Meet Our Leaders"/>
     </file>
     <file name="lifechurch4.png" crc="3804901615" seo="true" ref="index">
       <caption webpage="index" alt="Life Church International Home Page"/>
+      <caption webpage="index" alt="Life Church International Home Page"/>
     </file>
-    <file name="home-favicon.ico" crc="3856070086" ref="phone>index"/>
+    <file name="home-favicon.ico" crc="103988463" ref="phone>index:index"/>
     <file name="u5662.png" crc="339134378" ref="index"/>
     <file name="u5662-r.png" crc="4267189841" ref="index"/>
-    <file name="u5653.png" crc="4149565531" ref="index"/>
-    <file name="u5653-r.png" crc="96931419" ref="index"/>
+    <file name="u5653.png" crc="292892925" ref="index"/>
+    <file name="u5653-r.png" crc="365300266" ref="index"/>
     <file name="getinvolved4.png" crc="4169788944" seo="true" ref="get-involved">
+      <caption webpage="get-involved" alt="Life Church Transform the World"/>
       <caption webpage="get-involved" alt="Life Church Transform the World"/>
     </file>
     <file name="minister.png" crc="4228110032" seo="true" ref="get-involved">
       <caption webpage="get-involved" alt=""/>
-    </file>
-    <file name="testimony.jpg" crc="153966630" seo="true" ref="testimony">
-      <caption webpage="testimony" alt="Share your testimony with us at Life Church"/>
+      <caption webpage="get-involved" alt=""/>
     </file>
     <file name="sharetestimony.png" crc="227946769" seo="true" ref="testimony">
+      <caption webpage="testimony" alt="Life Church International - Share Your Testimony"/>
       <caption webpage="testimony" alt="Life Church International - Share Your Testimony"/>
     </file>
     <file name="img9536561-crop-u8904.jpg" crc="338739062" seo="true" ref="contact-us">
@@ -230,11 +367,13 @@
     </file>
     <file name="worship1.png" crc="19175351" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="barrs7.jpg" crc="3892972190" seo="true" ref="about-us">
       <caption webpage="about-us" alt=""/>
+      <caption webpage="about-us" alt=""/>
     </file>
-    <file name="aboutbkgrnd-crop-u10125.jpg" crc="174544063" seo="true" ref="events">
+    <file name="aboutbkgrnd-crop-u10125.jpg" crc="3997526731" seo="true" ref="events">
       <caption webpage="events" alt=""/>
     </file>
     <file name="lifechurchexterior-crop-u9863.jpg" crc="4029418510" seo="true" ref="events">
@@ -243,7 +382,7 @@
     <file name="events center-crop-u9890.jpg" crc="4254692883" seo="true" ref="events">
       <caption webpage="events" alt="Life Events Center Interior Entryway"/>
     </file>
-    <file name="lifecenter1-crop-u10142.jpg" crc="4018510666" seo="true" ref="events">
+    <file name="lifecenter1-crop-u10142.jpg" crc="175396899" seo="true" ref="events">
       <caption webpage="events" alt="Life Events Center Interior Entryway"/>
     </file>
     <file name="img9536801-crop-u9749.jpg" crc="3961893997" seo="true" ref="events">
@@ -258,14 +397,19 @@
     <file name="loading.gif" crc="3815509949" ref="events"/>
     <file name="lifeeventscenter.png" crc="4211476583" seo="true" ref="events">
       <caption webpage="events" alt="Life Events Center"/>
+      <caption webpage="events" alt="Life Events Center"/>
+      <caption webpage="events" alt="Life Events Center"/>
     </file>
-    <file name="lifechurchcontact-crop-u10189.jpg" crc="407212223" seo="true" ref="contact-us">
+    <file name="lifechurchcontact-crop-u10189.jpg" crc="3963082806" seo="true" ref="contact-us">
       <caption webpage="contact-us" alt=""/>
     </file>
     <file name="contactus1.png" crc="527341209" seo="true" ref="contact-us">
       <caption webpage="contact-us" alt="Life Church International Contact Us"/>
+      <caption webpage="contact-us" alt="Life Church International Contact Us"/>
+      <caption webpage="contact-us" alt="Life Church International Contact Us"/>
     </file>
     <file name="lifechurchworshipwithus.png" crc="94896781" seo="true" ref="study">
+      <caption webpage="study" alt=""/>
       <caption webpage="study" alt=""/>
       <caption webpage="study" alt=""/>
     </file>
@@ -274,9 +418,10 @@
     </file>
     <file name="life church.png" crc="264658664" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="u11424-4.png" crc="4058503696" ref="phone>index"/>
-    <file name="lifechurchworshipwithus-crop-u11426.png" crc="3783176988" seo="true" ref="phone>index">
+    <file name="lifechurchworshipwithus-crop-u11426.png" crc="194066321" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="u11433-13.png" crc="3858842065" ref="phone>index"/>
@@ -290,14 +435,17 @@
     <file name="u11529-r.png" crc="3808770091" ref="phone>index"/>
     <file name="19018_lifting_hands_in_prayer.jpg" crc="3997990079" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="testifym.png" crc="3770849436" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="freely-gift-habeshaw-100518-crop-u11491.jpg" crc="3973371833" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="studym.png" crc="4293102598" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="withus-crop-u11583.png" crc="12983480" seo="true" ref="phone>index">
@@ -315,20 +463,138 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="menu_icon_04_white_3line.png" crc="5364606" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="close.png" crc="255045802" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="lifechurch5-crop-u114292.jpg" crc="438387286" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u11424-42.png" crc="4065476868" ref="phone>index"/>
+    <file name="lifechurchworshipwithus-crop-u114262.png" crc="4008836658" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u11433-132.png" crc="3820521918" ref="phone>index"/>
+    <file name="35587_he_is_risen-crop-u114552.jpg" crc="490281721" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="freely-jd-mason-61831-crop-u115032.jpg" crc="3960915885" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u115292.png" crc="4226417257" ref="phone>index"/>
+    <file name="u11529-r2.png" crc="455314242" ref="phone>index"/>
+    <file name="freely-gift-habeshaw-100518-crop-u114912.jpg" crc="208489201" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="withus-crop-u115832.png" crc="4102858206" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="lifechurchmobile-crop-u114312.jpg" crc="303592833" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="prayer1437x958.jpg" crc="3786409342" seo="true" ref="prayer">
+      <caption webpage="prayer" alt="Life Church Prayer Request"/>
+    </file>
+    <file name="prayer1307x871.jpg" crc="397168438" seo="true" ref="prayer">
+      <caption webpage="prayer" alt="Life Church Prayer Request"/>
+    </file>
+    <file name="testimony1401x934.jpg" crc="3951281217" seo="true" ref="testimony">
+      <caption webpage="testimony" alt="Share your testimony with us at Life Church"/>
+    </file>
+    <file name="testimony1304x870.jpg" crc="3954398529" seo="true" ref="testimony">
+      <caption webpage="testimony" alt="Share your testimony with us at Life Church"/>
+    </file>
+    <file name="aboutbkgrnd-crop-u101252.jpg" crc="72597484" seo="true" ref="events">
+      <caption webpage="events" alt=""/>
+    </file>
+    <file name="lifechurchexterior-crop-u98632.jpg" crc="4271117566" seo="true" ref="events">
+      <caption webpage="events" alt=""/>
+    </file>
+    <file name="events center-crop-u98902.jpg" crc="4146449656" seo="true" ref="events">
+      <caption webpage="events" alt="Life Events Center Interior Entryway"/>
+    </file>
+    <file name="lifecenter1-crop-u101422.jpg" crc="167244384" seo="true" ref="events">
+      <caption webpage="events" alt="Life Events Center Interior Entryway"/>
+    </file>
+    <file name="img9536801-crop-u97492.jpg" crc="372893777" seo="true" ref="events">
+      <caption webpage="events" alt="Life Events Center Interior"/>
+    </file>
+    <file name="img9536811-crop-u97692.jpg" crc="3942519888" seo="true" ref="events">
+      <caption webpage="events" alt="Life Events Center Interior"/>
+    </file>
+    <file name="img9536821-crop-u97892.jpg" crc="213052313" seo="true" ref="events">
+      <caption webpage="events" alt="Life Events Center Interior"/>
+    </file>
+    <file name="aboutbkgrnd-crop-u101253.jpg" crc="4009948888" seo="true" ref="events">
+      <caption webpage="events" alt=""/>
+    </file>
+    <file name="lifechurchexterior-crop-u98633.jpg" crc="4070379807" seo="true" ref="events">
+      <caption webpage="events" alt=""/>
+    </file>
+    <file name="events center-crop-u98903.jpg" crc="190302766" seo="true" ref="events">
+      <caption webpage="events" alt="Life Events Center Interior Entryway"/>
+    </file>
+    <file name="lifecenter1-crop-u101423.jpg" crc="3956323243" seo="true" ref="events">
+      <caption webpage="events" alt="Life Events Center Interior Entryway"/>
+    </file>
+    <file name="img9536801-crop-u97493.jpg" crc="3831835716" seo="true" ref="events">
+      <caption webpage="events" alt="Life Events Center Interior"/>
+    </file>
+    <file name="img9536811-crop-u97693.jpg" crc="439507466" seo="true" ref="events">
+      <caption webpage="events" alt="Life Events Center Interior"/>
+    </file>
+    <file name="img9536821-crop-u97893.jpg" crc="421396757" seo="true" ref="events">
+      <caption webpage="events" alt="Life Events Center Interior"/>
+    </file>
+    <file name="lifechurchcontact-crop-u101892.jpg" crc="4120690554" seo="true" ref="contact-us">
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="img9536561-crop-u89042.jpg" crc="1780657" seo="true" ref="contact-us">
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="lifechurchcontact-crop-u101893.jpg" crc="4203398901" seo="true" ref="contact-us">
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="img9536561-crop-u89043.jpg" crc="4083537550" seo="true" ref="contact-us">
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="u4193-43.png" crc="274543109" ref="study"/>
+    <file name="u4332-53.png" crc="255694920" ref="study"/>
+    <file name="u4357-53.png" crc="460409515" ref="study"/>
+    <file name="u4395-43.png" crc="45519198" ref="study"/>
+    <file name="u5740-42.png" crc="206938766" ref="index"/>
+    <file name="u56892.png" crc="233280763" ref="index"/>
+    <file name="u5689-r2.png" crc="412414970" ref="index"/>
+    <file name="u56622.png" crc="326829850" ref="index"/>
+    <file name="u5662-r2.png" crc="3776101973" ref="index"/>
+    <file name="u56532.png" crc="4031172420" ref="index"/>
+    <file name="u5653-r2.png" crc="506713739" ref="index"/>
+    <file name="img9536561-crop-u79662.jpg" crc="222101457" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="joshua-ness-109309-unsplash.jpg" crc="3913446538" seo="true" ref="about-us">
+      <caption webpage="about-us" alt=""/>
     </file>
   </folder>
-  <file name="get-involved.html" crc="4163821277" seo="true" mt="1546308913766" redirect="true"/>
-  <file name="prayer.html" crc="436330281" seo="true" mt="1546308913808" redirect="true"/>
-  <file name="testimony.html" crc="4022048526" seo="true" mt="1546308913849" redirect="true"/>
-  <file name="events.html" crc="364815723" seo="true" mt="1546308913933" redirect="true"/>
-  <file name="contact-us.html" crc="4168405538" seo="true" mt="1546308913974" redirect="true"/>
-  <file name="study.html" crc="205535006" seo="true" mt="1546332247785" redirect="true"/>
-  <file name="index.html" crc="3837845868" seo="true" mt="1546332147608" redirect="true"/>
-  <file name="about-us.html" crc="3927380865" seo="true" mt="1546308913725" redirect="true"/>
+  <file name="get-involved.html" crc="4234542300" seo="true" mt="1546349512524" redirect="true"/>
+  <file name="prayer.html" crc="4127547047" seo="true" mt="1546350531093" redirect="true"/>
+  <file name="testimony.html" crc="4136005449" seo="true" mt="1546350735685" redirect="true"/>
+  <file name="events.html" crc="213144120" seo="true" mt="1546351623054" redirect="true"/>
+  <file name="contact-us.html" crc="74843046" seo="true" mt="1546348880098" redirect="true"/>
+  <file name="study.html" crc="294078043" seo="true" mt="1546352064259" redirect="true"/>
+  <file name="index.html" crc="114595128" seo="true" mt="1546351868516" redirect="true"/>
+  <file name="about-us.html" crc="7148442" seo="true" mt="1546350416524" redirect="true"/>
 </manifest>
