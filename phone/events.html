@@ -13,71 +13,376 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "events.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpdisclosure.js", "jquery.museresponsive.js", "require.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "events.css"], "outOfDate":[]};
 </script>
   
   <link rel="canonical" href="http://iamlifechurch.org/events.html"/>
   <title>Events</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=3813440122"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=65899903"/>
-  <link rel="stylesheet" type="text/css" href="css/events.css?crc=4069047081" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=376532719"/>
+  <link rel="stylesheet" type="text/css" href="css/events.css?crc=4262463738" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=4226839539"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_events.css?crc=143392943" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=323556243"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_events.css?crc=456459485" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
    var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
-  <script src="https://webfonts.creativecloud.com/dosis:n3:default.js" type="text/javascript"></script>
-   </head>
+  <script src="https://webfonts.creativecloud.com/dosis:n3,n7:default.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/zuduzLkICkcvzKNmy4aVnD0pvU9Jalf2ErRxiJUE1KGfeCqgfOPe9sJGwQwkFDqkFBNqwAmRZRMuF2JtZRqDZRFcF2bk5QqXF2S3F2bkwQbtZgG_HKoTjAuC-AZ8jhyuScFGOcNkZkUTjAuC-AZ8jhyuScFGOcNkZkUaiaS0-ABlde8cZAFGiW4R-fozScSKgagzSYgTd1wKB14ydemajWqliRJ3OAs8SY48jhBXZAb7f6K5TbJbMg6BJMJ7f6KbTbJbMg6eJMJ7f6K4TbJbMg62JMJ7f6K0TbJbMs6IJM4HgIuuShAbM-5oC0IB.js" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   try {Typekit.load();} catch(e) {}
+</script>
+    <!--HTML Widget code-->
+  
+      <style>
+
+        #page #u16167 {
+          display: none;
+        }
+
+        body .u16167-mt_btn_top {
+          opacity: 0;
+          visibility: hidden;
+          position: fixed;
+          padding: 15px;
+          z-index: 999;
+          display: inline-block;
+          background: rgba(0,0,0, 1);
+          border: 0px solid rgba(56,56,56, 1);
+          outline: none;
+          font-size: 14px;
+          text-decoration: none !important;
+          color: rgb(255,255,255);
+          border-radius: 5px;
+          transition: visibility 1s, opacity 1s;
+          font-family: Source Sans Pro, Arial, sans-serif;
+          min-width: calc(50px - 30px);
+          height: calc(50px - 30px);
+          line-height: calc(50px - 30px);
+          text-align: center;
+          transition-delay: 0s;
+        }
+
+        body .u16167-mt_btn_top.show_scroll {
+          opacity: 1;
+          visibility: visible;
+        }
+       
+        body .u16167-mt_btn_top .u16167-mt-scrolltop-arrow {
+          display: inline-block;
+          position: relative;
+          text-align: center;
+          color: rgb(255,255,255);
+          margin-left: .75em;
+          border-radius: 5px;
+          vertical-align: middle;
+        }
+
+        body .u16167-mt_btn_top .u16167-mt-scrolltop-arrow:after {
+          content: '';
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-top: 2px solid rgb(255,255,255);
+          border-right: 2px solid rgb(255,255,255);
+          -moz-transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          vertical-align: middle;
+        }
+
+        body .u16167-mt_btn_top.arrow-only .u16167-mt-scrolltop-arrow {
+          margin-left: 0;
+          margin-top: 1px;
+        }
+
+        body .u16167-mt_btn_top:hover {
+          background: rgba(126,124,124, 1);
+          border-color: rgba(126,124,124, 1);
+          color: rgb(255,255,255);
+        }
+
+        body .u16167-mt_btn_top:hover .u16167-mt-scrolltop-arrow:after {
+          border-top: 2px solid rgb(255,255,255);
+          border-right: 2px solid rgb(255,255,255);
+        }
+
+        button::-moz-focus-inner {
+          border: none;
+        }
+
+      </style>
+    
+ </head>
  <body>
 
   <div class="breakpoint active" id="bp_infinity" data-min-width="321"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox" id="page"><!-- group -->
-    <div class="browser_width grpelem" id="u11103-bw">
-     <div class="clearfix" id="u11103"><!-- group -->
-      <div class="clip_frame grpelem" id="u11104"><!-- image -->
-       <img class="block temp_no_img_src" id="u11104_img" data-orig-src="../images/life2.png?crc=3999926010" alt="" data-heightwidthratio="0.25287356321839083" data-image-width="174" data-image-height="44" src="../images/blank.gif?crc=4208392903"/>
+    <div class="clearfix grpelem" id="ppu11103"><!-- column -->
+     <div class="clearfix colelem" id="pu11103"><!-- group -->
+      <div class="browser_width grpelem" id="u11103-bw">
+       <div class="clearfix" id="u11103"><!-- group -->
+        <div class="clip_frame grpelem" id="u11104"><!-- image -->
+         <img class="block temp_no_img_src" id="u11104_img" data-orig-src="../images/life2174x44.png?crc=4218164130" data-hidpi-src="../images/life2174x44_2x.png?crc=183494799" alt="" data-heightwidthratio="0.25287356321839083" data-image-width="174" data-image-height="44" src="../images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
+      </div>
+      <ul class="AccordionWidget clearfix grpelem" id="accordionu24316" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- vertical box -->
+       <li class="AccordionPanel clearfix colelem" id="u24317"><!-- vertical box --><div class="AccordionPanelTab transition museBGSize clearfix colelem" id="u24326-3" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p class="shared_content" data-content-guid="u24326-3_0_content">&nbsp;</p></div><div class="AccordionPanelContent disn clearfix colelem" id="u24318"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u24323-4" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u24323-4_content"><!-- content --><p id="u24323-2"><span class="Menu-Buttons" id="u24323">HOME</span></p></a><a class="nonblock nontext clearfix colelem shared_content" id="u24324-4" href="about-us.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u24324-4_content"><!-- content --><p id="u24324-2"><span class="Menu-Buttons" id="u24324">ABOUT US</span></p></a><a class="nonblock nontext clearfix colelem shared_content" id="u24322-4" href="get-involved.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u24322-4_content"><!-- content --><p id="u24322-2"><span class="Menu-Buttons" id="u24322">GET INVOLVED</span></p></a><a class="nonblock nontext clearfix colelem shared_content" id="u24321-4" href="prayer.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u24321-4_content"><!-- content --><p id="u24321-2"><span class="Menu-Buttons" id="u24321">PRAYER</span></p></a><a class="nonblock nontext clearfix colelem shared_content" id="u24320-4" href="testimony.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u24320-4_content"><!-- content --><p id="u24320-2"><span class="Menu-Buttons" id="u24320">TESTIMONY</span></p></a><a class="nonblock nontext MuseLinkActive clearfix colelem shared_content" id="u24325-4" href="events.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u24325-4_content"><!-- content --><p id="u24325-2"><span class="Menu-Buttons" id="u24325">EVENTS</span></p></a><a class="nonblock nontext clearfix colelem shared_content" id="u24319-4" href="contact-us.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u24319-4_content"><!-- content --><p id="u24319-2"><span class="Menu-Buttons" id="u24319">CONTACT US</span></p></a></div></li>
+      </ul>
+     </div>
+     <div class="clearfix colelem" id="pu16167"><!-- group -->
+      <div class="size_fluid_width grpelem shared_content" id="u16167" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-content-guid="u16167_content"><!-- custom html -->
+       
+       
+    
+      </div>
+      <div class="clip_frame grpelem" id="u17649"><!-- image -->
+       <img class="block temp_no_img_src" id="u17649_img" data-orig-src="../images/aboutbkgrnd-crop-u17649.jpg?crc=404756957" alt="" data-heightwidthratio="1.5473684210526315" data-image-width="380" data-image-height="588" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="SlideShowWidget clearfix grpelem" id="slideshowu17243" data-visibility="changed" style="visibility:hidden"><!-- none box -->
+       <div class="popup_anchor allow_click_through colelem" data-col-pos="0" id="u17259popup">
+        <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u17259"><!-- stack box -->
+         <div class="SSSlide clip_frame grpelem" data-col-pos="0" id="u17266"><!-- image -->
+          <img class="block ImageInclude" data-col-pos="0" id="u17266_img" data-src="../images/lifechurchexterior-crop-u17266.jpg?crc=395563512" src="../images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="1.0087719298245614" data-image-width="342" data-image-height="345"/>
+         </div>
+         <div class="SSSlide invi clip_frame grpelem" data-col-pos="1" id="u17260"><!-- image -->
+          <img class="block ImageInclude" data-col-pos="1" id="u17260_img" data-src="../images/events%20center-crop-u17260.jpg?crc=3908274905" src="../images/blank.gif?crc=4208392903" alt="Life Events Center Interior Entryway" title="Life Events Center Interior" data-heightwidthratio="1.0087719298245614" data-image-width="342" data-image-height="345"/>
+         </div>
+         <div class="SSSlide invi clip_frame grpelem" data-col-pos="2" id="u17264"><!-- image -->
+          <img class="block ImageInclude" data-col-pos="2" id="u17264_img" data-src="../images/lifecenter1-crop-u17264.jpg?crc=321764331" src="../images/blank.gif?crc=4208392903" alt="Life Events Center Interior Entryway" title="Life Events Center Interior" data-heightwidthratio="1.0087719298245614" data-image-width="342" data-image-height="345"/>
+         </div>
+         <div class="SSSlide invi clip_frame grpelem" data-col-pos="3" id="u17270"><!-- image -->
+          <img class="block ImageInclude" data-col-pos="3" id="u17270_img" data-src="../images/img9536801-crop-u17270.jpg?crc=4263126569" src="../images/blank.gif?crc=4208392903" alt="Life Events Center Interior" title="Life Events Center Interior" data-heightwidthratio="1.0087719298245614" data-image-width="342" data-image-height="345"/>
+         </div>
+         <div class="SSSlide invi clip_frame grpelem" data-col-pos="4" id="u17262"><!-- image -->
+          <img class="block ImageInclude" data-col-pos="4" id="u17262_img" data-src="../images/img9536811-crop-u17262.jpg?crc=4251444336" src="../images/blank.gif?crc=4208392903" alt="Life Events Center Interior" title="Life Events Center Interior" data-heightwidthratio="1.0087719298245614" data-image-width="342" data-image-height="345"/>
+         </div>
+         <div class="SSSlide invi clip_frame grpelem" data-col-pos="5" id="u17268"><!-- image -->
+          <img class="block ImageInclude" data-col-pos="5" id="u17268_img" data-src="../images/img9536821-crop-u17268.jpg?crc=47733535" src="../images/blank.gif?crc=4208392903" alt="Life Events Center Interior" title="Life Events Center Interior" data-heightwidthratio="1.0087719298245614" data-image-width="342" data-image-height="345"/>
+         </div>
+        </div>
+       </div>
+       <div class="popup_anchor allow_click_through colelem" data-col-pos="2" id="u17277popup">
+        <div class="SlideShowCaptionPanel clearfix" data-col-pos="2" id="u17277"><!-- stack box -->
+         <div class="SSSlideCaption clearfix grpelem" data-col-pos="0" id="u17278-4"><!-- content -->
+          <div id="u17278-3" class="shared_content" data-content-guid="u17278-3_content">
+           <p>Life Events Center Exterior</p>
+          </div>
+         </div>
+         <div class="SSSlideCaption invi clearfix grpelem" data-col-pos="1" id="u17282-4"><!-- content -->
+          <div id="u17282-3" class="shared_content" data-content-guid="u17282-3_content">
+           <p>Life Events Center Interior</p>
+          </div>
+         </div>
+         <div class="SSSlideCaption invi clearfix grpelem" data-col-pos="2" id="u17283-4"><!-- content -->
+          <div id="u17283-3" class="shared_content" data-content-guid="u17283-3_content">
+           <p>Life Events Center Interior</p>
+          </div>
+         </div>
+         <div class="SSSlideCaption invi clearfix grpelem" data-col-pos="3" id="u17279-4"><!-- content -->
+          <div id="u17279-3" class="shared_content" data-content-guid="u17279-3_content">
+           <p>Life Events Center Interior</p>
+          </div>
+         </div>
+         <div class="SSSlideCaption invi clearfix grpelem" data-col-pos="4" id="u17281-4"><!-- content -->
+          <div id="u17281-3" class="shared_content" data-content-guid="u17281-3_content">
+           <p>Life Events Center Interior</p>
+          </div>
+         </div>
+         <div class="SSSlideCaption invi clearfix grpelem" data-col-pos="5" id="u17280-4"><!-- content -->
+          <div id="u17280-3" class="shared_content" data-content-guid="u17280-3_content">
+           <p>Life Events Center Interior</p>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pu17258-4"><!-- group -->
+        <div class="popup_anchor allow_click_through grpelem" data-col-pos="7" id="u17258-4popup">
+         <div class="SSPreviousButton clearfix" data-col-pos="7" id="u17258-4"><!-- content -->
+          <div id="u17258-3" class="shared_content" data-content-guid="u17258-3_content">
+           <p>&lt;</p>
+          </div>
+         </div>
+        </div>
+        <div class="popup_anchor allow_click_through grpelem" data-col-pos="6" id="u17272-4popup">
+         <div class="SlideShowLabel SSSlideCount clearfix" data-col-pos="6" id="u17272-4"><!-- content -->
+          <div id="u17272-3" class="shared_content" data-content-guid="u17272-3_content">
+           <p>5 - 6</p>
+          </div>
+         </div>
+        </div>
+        <div class="popup_anchor allow_click_through grpelem" data-col-pos="8" id="u17244-4popup">
+         <div class="SSNextButton clearfix" data-col-pos="8" id="u17244-4"><!-- content -->
+          <div id="u17244-3" class="shared_content" data-content-guid="u17244-3_content">
+           <p>&gt;</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="clip_frame grpelem" id="u17284" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter"><!-- image -->
+       <img class="block temp_no_img_src" id="u17284_img" data-orig-src="../images/lifeeventscenter285x75.png?crc=3863679832" data-hidpi-src="../images/lifeeventscenter285x75_2x.png?crc=4211476583" alt="Life Events Center" title="Life Events Center" data-heightwidthratio="0.2596491228070175" data-image-width="285" data-image-height="74" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="grpelem shared_content" id="u17763" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter" data-content-guid="u17763_content"><!-- simple frame -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="u17286-7" data-content-guid="u17286-7_content"><!-- content -->
+      <p id="u17286-2">Life Events Center</p>
+      <p id="u17286-4"><span id="u17286-3">The Life Events Center is a beautiful 1500 sq ft Event Venue space featuring a separate 1000 sq ft commercial kitchen. This event venue is perfect to host private events, special engagements, celebrations, conferences, and so much more. If you would like more information or to reserve this space for your special event please fill out the reservation form below.</span></p>
+      <p id="u17286-5">&nbsp;</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="pu17287" data-content-guid="pu17287_content"><!-- group -->
+      <div class="grpelem" id="u17287"><!-- custom html -->
+       <iframe src="https://services.cognitoforms.com/f/noEjlAXGEUGuRGotf2QwQg?id=7" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="642" width="100%"></iframe>
+<script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+      </div>
+      <div class="browser_width grpelem" id="u17288-bw">
+       <div id="u17288"><!-- simple frame --></div>
       </div>
      </div>
     </div>
-    <div class="verticalspacer shared_content" data-offset-top="0" data-content-above-spacer="71" data-content-below-spacer="63" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="page_1_content"></div>
+    <div class="verticalspacer" data-offset-top="1794" data-content-above-spacer="1794" data-content-below-spacer="63" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="browser_width grpelem" id="u11132-bw">
      <div class="clearfix" id="u11132"><!-- group -->
       <div class="clearfix grpelem shared_content" id="u11122-4" data-content-guid="u11122-4_content"><!-- content -->
        <p>Life Church International&nbsp;&nbsp;&nbsp;&nbsp; 2019</p>
       </div>
       <div class="clip_frame grpelem" id="u11125"><!-- image -->
-       <img class="block temp_no_img_src" id="u11125_img" data-orig-src="../images/copyright.png?crc=3973042440" alt="" data-heightwidthratio="1" data-image-width="12" data-image-height="12" src="../images/blank.gif?crc=4208392903"/>
+       <img class="block temp_no_img_src" id="u11125_img" data-orig-src="../images/copyright12x12.png?crc=3872332987" data-hidpi-src="../images/copyright12x12_2x.png?crc=4238721441" alt="" data-heightwidthratio="1" data-image-width="12" data-image-height="12" src="../images/blank.gif?crc=4208392903"/>
       </div>
      </div>
     </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="../images/menu-icon-white-png-27.png?crc=3852949999" alt="" src="../images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="../images/menu-icon-white-png-27_2x.png?crc=4002179214" alt="" src="../images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="../images/closebutton.png?crc=216975684" alt="" src="../images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="../images/closebutton_2x.png?crc=510755508" alt="" src="../images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_320" data-max-width="320"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="browser_width grpelem temp_no_id" data-orig-id="u11103-bw">
-     <div class="clearfix temp_no_id" data-orig-id="u11103"><!-- group -->
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u11104"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/life2.png?crc=3999926010" alt="" data-heightwidthratio="0.2534246575342466" data-image-width="146" data-image-height="37" data-orig-id="u11104_img" src="../images/blank.gif?crc=4208392903"/>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu11103"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu11103"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u11103-bw">
+       <div class="clearfix temp_no_id" data-orig-id="u11103"><!-- group -->
+        <div class="clip_frame grpelem temp_no_id" data-orig-id="u11104"><!-- image -->
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/life2147x38.png?crc=4069993814" data-hidpi-src="../images/life2147x38_2x.png?crc=4263414035" alt="" data-heightwidthratio="0.2534246575342466" data-image-width="146" data-image-height="37" data-orig-id="u11104_img" src="../images/blank.gif?crc=4208392903"/>
+        </div>
+       </div>
       </div>
+      <ul class="AccordionWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="accordionu24316"><!-- vertical box -->
+       <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u24317"><!-- vertical box --><div class="AccordionPanelTab transition museBGSize clearfix colelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u24326-3"><!-- content --><span class="placeholder" data-placeholder-for="u24326-3_0_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u24318"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u24323-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u24324-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u24322-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u24321-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u24320-4_content"><!-- placeholder node --></span><span class="nonblock nontext MuseLinkActive clearfix colelem placeholder" data-placeholder-for="u24325-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u24319-4_content"><!-- placeholder node --></span></div></li>
+      </ul>
      </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu16167"><!-- group -->
+      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u16167_content"><!-- placeholder node --></span>
+      <div class="clip_frame grpelem temp_no_id" data-orig-id="u17649"><!-- image -->
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/aboutbkgrnd-crop-u176492.jpg?crc=210657164" alt="" data-heightwidthratio="1.55" data-image-width="320" data-image-height="496" data-orig-id="u17649_img" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="SlideShowWidget clearfix grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="slideshowu17243"><!-- none box -->
+       <div class="popup_anchor allow_click_through colelem temp_no_id" data-col-pos="0" data-orig-id="u17259popup">
+        <div class="SlideShowContentPanel clearfix temp_no_id" data-col-pos="0" data-orig-id="u17259"><!-- stack box -->
+         <div class="SSSlide clip_frame grpelem temp_no_id" data-col-pos="0" data-orig-id="u17266"><!-- image -->
+          <img class="block ImageInclude temp_no_id" data-col-pos="0" data-src="../images/lifechurchexterior-crop-u172662.jpg?crc=4018276457" src="../images/blank.gif?crc=4208392903" alt="" data-heightwidthratio="1.0104166666666667" data-image-width="288" data-image-height="291" data-orig-id="u17266_img"/>
+         </div>
+         <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="1" data-orig-id="u17260"><!-- image -->
+          <img class="block ImageInclude temp_no_id" data-col-pos="1" data-src="../images/events%20center-crop-u172602.jpg?crc=3900132950" src="../images/blank.gif?crc=4208392903" alt="Life Events Center Interior Entryway" title="Life Events Center Interior" data-heightwidthratio="1.0104166666666667" data-image-width="288" data-image-height="291" data-orig-id="u17260_img"/>
+         </div>
+         <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="2" data-orig-id="u17264"><!-- image -->
+          <img class="block ImageInclude temp_no_id" data-col-pos="2" data-src="../images/lifecenter1-crop-u172642.jpg?crc=463805765" src="../images/blank.gif?crc=4208392903" alt="Life Events Center Interior Entryway" title="Life Events Center Interior" data-heightwidthratio="1.0104166666666667" data-image-width="288" data-image-height="291" data-orig-id="u17264_img"/>
+         </div>
+         <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="3" data-orig-id="u17270"><!-- image -->
+          <img class="block ImageInclude temp_no_id" data-col-pos="3" data-src="../images/img9536801-crop-u172702.jpg?crc=27894357" src="../images/blank.gif?crc=4208392903" alt="Life Events Center Interior" title="Life Events Center Interior" data-heightwidthratio="1.0104166666666667" data-image-width="288" data-image-height="291" data-orig-id="u17270_img"/>
+         </div>
+         <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="4" data-orig-id="u17262"><!-- image -->
+          <img class="block ImageInclude temp_no_id" data-col-pos="4" data-src="../images/img9536811-crop-u172622.jpg?crc=161398763" src="../images/blank.gif?crc=4208392903" alt="Life Events Center Interior" title="Life Events Center Interior" data-heightwidthratio="1.0104166666666667" data-image-width="288" data-image-height="291" data-orig-id="u17262_img"/>
+         </div>
+         <div class="SSSlide invi clip_frame grpelem temp_no_id" data-col-pos="5" data-orig-id="u17268"><!-- image -->
+          <img class="block ImageInclude temp_no_id" data-col-pos="5" data-src="../images/img9536821-crop-u172682.jpg?crc=13861119" src="../images/blank.gif?crc=4208392903" alt="Life Events Center Interior" title="Life Events Center Interior" data-heightwidthratio="1.0104166666666667" data-image-width="288" data-image-height="291" data-orig-id="u17268_img"/>
+         </div>
+        </div>
+       </div>
+       <div class="popup_anchor allow_click_through colelem temp_no_id" data-col-pos="2" data-orig-id="u17277popup">
+        <div class="SlideShowCaptionPanel clearfix temp_no_id" data-col-pos="2" data-orig-id="u17277"><!-- stack box -->
+         <div class="SSSlideCaption clearfix grpelem temp_no_id" data-col-pos="0" data-orig-id="u17278-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17278-3_content"><!-- placeholder node --></span>
+         </div>
+         <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-col-pos="1" data-orig-id="u17282-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17282-3_content"><!-- placeholder node --></span>
+         </div>
+         <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-col-pos="2" data-orig-id="u17283-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17283-3_content"><!-- placeholder node --></span>
+         </div>
+         <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-col-pos="3" data-orig-id="u17279-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17279-3_content"><!-- placeholder node --></span>
+         </div>
+         <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-col-pos="4" data-orig-id="u17281-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17281-3_content"><!-- placeholder node --></span>
+         </div>
+         <div class="SSSlideCaption invi clearfix grpelem temp_no_id" data-col-pos="5" data-orig-id="u17280-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17280-3_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="pu17272-4"><!-- group -->
+        <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="6" data-orig-id="u17272-4popup">
+         <div class="SlideShowLabel SSSlideCount clearfix temp_no_id" data-col-pos="6" data-orig-id="u17272-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17272-3_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+        <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="7" data-orig-id="u17258-4popup">
+         <div class="SSPreviousButton clearfix temp_no_id" data-col-pos="7" data-orig-id="u17258-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17258-3_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+        <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="8" data-orig-id="u17244-4popup">
+         <div class="SSNextButton clearfix temp_no_id" data-col-pos="8" data-orig-id="u17244-4"><!-- content -->
+          <span class="placeholder" data-placeholder-for="u17244-3_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter" data-orig-id="u17284"><!-- image -->
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/lifeeventscenter240x63.png?crc=438790185" data-hidpi-src="../images/lifeeventscenter240x63_2x.png?crc=4211476583" alt="Life Events Center" title="Life Events Center" data-heightwidthratio="0.25833333333333336" data-image-width="240" data-image-height="62" data-orig-id="u17284_img" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u17763_content"><!-- placeholder node --></span>
+     </div>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u17286-7_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu17287_content"><!-- placeholder node --></span>
     </div>
-    <span class="verticalspacer placeholder" data-placeholder-for="page_1_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="1737" data-content-above-spacer="1737" data-content-below-spacer="62" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="browser_width grpelem temp_no_id" data-orig-id="u11132-bw">
      <div class="clearfix temp_no_id" data-orig-id="u11132"><!-- group -->
       <span class="clearfix grpelem placeholder" data-placeholder-for="u11122-4_content"><!-- placeholder node --></span>
       <div class="clip_frame grpelem temp_no_id" data-orig-id="u11125"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/copyright.png?crc=3973042440" alt="" data-heightwidthratio="1" data-image-width="10" data-image-height="10" data-orig-id="u11125_img" src="../images/blank.gif?crc=4208392903"/>
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/copyright11x11.png?crc=8880846" data-hidpi-src="../images/copyright11x11_2x.png?crc=3854258172" alt="" data-heightwidthratio="1" data-image-width="10" data-image-height="10" data-orig-id="u11125_img" src="../images/blank.gif?crc=4208392903"/>
       </div>
      </div>
     </div>
    </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="../images/menu-icon-white-png-27.png?crc=3852949999" alt="" src="../images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="../images/menu-icon-white-png-27_2x.png?crc=4002179214" alt="" src="../images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="../images/closebutton.png?crc=216975684" alt="" src="../images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="../images/closebutton_2x.png?crc=510755508" alt="" src="../images/blank.gif?crc=4208392903"/>
+   </div>
   </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="../scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    // Decide whether to suppress missing file error or not based on preference setting
@@ -89,13 +394,17 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","museutils","whatinput","jquery.watch","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","webpro","musewpdisclosure","musewpslideshow","jquery.museoverlay","touchswipe","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#accordionu24316', ['#bp_infinity', '#bp_320'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu24316 */
+Muse.Utils.initWidget('#slideshowu17243', ['#bp_infinity', '#bp_320'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:3000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'off',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); $(elem).data('widget', widget); return widget; });/* #slideshowu17243 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -104,5 +413,114 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="../scripts/require.js?crc=7928878" type="text/javascript" async data-main="../scripts/museconfig.js?crc=310584261" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+      <script>
+        console.log("Back To Top Button (1.1) - MuseThemes");
+      </script>
+
+      <script>
+      var checkIfNoteMuse = $('#page').length;
+
+      if (checkIfNoteMuse !== 0) {
+
+        function debounce(func, wait, immediate) {
+          var timeout;
+          return function () {
+            var context = this, args = arguments;
+            var later = function () {
+              timeout = null;
+              if (!immediate) func.apply(context, args);
+            };
+        
+            var callNow = immediate && !timeout;
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+            if (callNow) func.apply(context, args);
+          };
+        }
+
+        $(document).ready(function(){
+
+          var buttonText = 'Go To Top';
+
+          if (buttonText.length > 0) {
+            $('body').append('<a href="#" class="u16167-mt_btn_top">Go To Top <span class="u16167-mt-scrolltop-arrow"></span></a>');
+          } else {
+            $('body').append('<a href="#" class="u16167-mt_btn_top arrow-only"><span class="u16167-mt-scrolltop-arrow"></span></a>');
+          }
+
+          if ("disable" == "enable") {
+            $( "<style>@media (min-width: 720px) and (max-width: 1280px) {body .u16167-mt_btn_top {display: none !important;}}</style>" ).appendTo( "head" );
+          }
+
+          var scrollSpeed = 400;
+          var $base = $('html, body');
+          var alignment = 'right';
+
+          switch(alignment) {
+            case 'center':
+              var paddingBottom = '20';
+              var widthOfElement = $('.u16167-mt_btn_top').outerWidth();
+              widthOfElement = widthOfElement / 2;
+              $('.u16167-mt_btn_top').css('left', '50%');
+              $('.u16167-mt_btn_top').css('margin-left', '-' + widthOfElement + 'px');
+              $('.u16167-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+
+            case 'left':
+              var paddingLeft = '30';
+              var paddingBottom = '20';
+              $('.u16167-mt_btn_top').css('left', paddingLeft + 'px');
+              $('.u16167-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+
+            case 'right':
+              var paddingRight = '30';
+              var paddingBottom = '20';
+              $('.u16167-mt_btn_top').css('right', paddingRight + 'px');
+              $('.u16167-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+
+            default: 
+              var paddingBottom = '20';
+              $('.u16167-mt_btn_top').css('left', '50%');
+              $('.u16167-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+          }
+
+          $('.u16167-mt_btn_top').on('click', function(e){
+            
+            e.preventDefault();
+            
+            $base.animate({
+              scrollTop: 0
+            }, scrollSpeed);
+
+          });
+
+          var showButtonValue = parseInt('100');
+
+          var showOrHideButton = debounce(function(){
+
+            if ($(window).scrollTop() > showButtonValue) {
+              $('.u16167-mt_btn_top').addClass('show_scroll');
+            } else {
+              $('.u16167-mt_btn_top').removeClass('show_scroll');
+            }
+
+          }, 200);
+
+          $(window).scroll(function(){
+            showOrHideButton();
+          });
+
+
+        });
+      }  
+      </script>
+
+    
    </body>
 </html>
