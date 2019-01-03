@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://iamlifechurch.org/index.html</loc>
-    <lastmod>2019-01-02</lastmod>
+    <lastmod>2019-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/index.html"/>
@@ -17,18 +17,6 @@
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/handback.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/stody.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/testify.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/serve.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/getin1.png</image:loc>
@@ -65,15 +53,6 @@
       <image:loc>http://iamlifechurch.org/images/img9536561-crop-u7966_2x.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/stody239x238.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/testify235x233.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/serve235x233.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://iamlifechurch.org/images/img9536561-crop-u7966_2x2.jpg</image:loc>
     </image:image>
     <image:image>
@@ -89,9 +68,6 @@
       <image:loc>http://iamlifechurch.org/images/praise_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/handback-crop-u5685.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://iamlifechurch.org/images/inter339x77.png</image:loc>
     </image:image>
     <image:image>
@@ -102,9 +78,6 @@
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/praise266x52_2x.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/handback-crop-u56852.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/inter265x60.png</image:loc>
@@ -119,71 +92,60 @@
       <image:loc>http://iamlifechurch.org/images/praise208x41_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/stody188x187.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/testify184x183.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/serve184x183.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://iamlifechurch.org/images/img9536561-crop-u79663.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/img9536561-crop-u7966_2x3.jpg</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>http://iamlifechurch.org/prayer.html</loc>
-    <lastmod>2019-01-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/prayer.html"/>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/lifechurchhome1.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/lifechurchstudy4.png</image:loc>
+      <image:caption>Life Church Bible StudyTools</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/lifechurchtestify1.png</image:loc>
+      <image:caption>Life Church Testimony</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/lifechurchserve2.png</image:loc>
+      <image:caption>Get Involved</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/prayerrequest.png</image:loc>
-      <image:caption>Life Church Prayer Request</image:caption>
+      <image:loc>http://iamlifechurch.org/images/lifechurchhome1-crop-u5685.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/life2_2x.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/lifechurchstudy4284x210.png</image:loc>
+      <image:caption>Life Church Bible StudyTools</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6_2x.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/lifechurchtestify1285x210.png</image:loc>
+      <image:caption>Life Church Testimony</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/youtube_2x.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/lifechurchserve2288x212.png</image:loc>
+      <image:caption>Get Involved</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/copyright_2x.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/lifechurchhome1-crop-u56852.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/prayer-crop-u6317.jpg</image:loc>
-      <image:caption>Life Church Prayer Request</image:caption>
+      <image:loc>http://iamlifechurch.org/images/lifechurchstudy4223x165.png</image:loc>
+      <image:caption>Life Church Bible StudyTools</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/prayer-crop-u63172.jpg</image:loc>
-      <image:caption>Life Church Prayer Request</image:caption>
+      <image:loc>http://iamlifechurch.org/images/lifechurchtestify1223x165.png</image:loc>
+      <image:caption>Life Church Testimony</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/prayer-crop-u63173.jpg</image:loc>
-      <image:caption>Life Church Prayer Request</image:caption>
+      <image:loc>http://iamlifechurch.org/images/lifechurchserve2226x167.png</image:loc>
+      <image:caption>Get Involved</image:caption>
     </image:image>
   </url>
   <url>
     <loc>http://iamlifechurch.org/testimony.html</loc>
-    <lastmod>2019-01-02</lastmod>
+    <lastmod>2019-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/testimony.html"/>
@@ -204,10 +166,6 @@
       <image:caption>Life Church International - Share Your Testimony</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/testimony1401x934.jpg</image:loc>
-      <image:caption>Share your testimony with us at Life Church</image:caption>
-    </image:image>
-    <image:image>
       <image:loc>http://iamlifechurch.org/images/life2_2x.png</image:loc>
     </image:image>
     <image:image>
@@ -220,17 +178,21 @@
       <image:loc>http://iamlifechurch.org/images/copyright_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/testimony1305x870.jpg</image:loc>
+      <image:loc>http://iamlifechurch.org/images/testify3-crop-u8633.jpg</image:loc>
       <image:caption>Share your testimony with us at Life Church</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/testimony1023x682.jpg</image:loc>
+      <image:loc>http://iamlifechurch.org/images/testify3-crop-u86332.jpg</image:loc>
+      <image:caption>Share your testimony with us at Life Church</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/testify3-crop-u86333.jpg</image:loc>
       <image:caption>Share your testimony with us at Life Church</image:caption>
     </image:image>
   </url>
   <url>
     <loc>http://iamlifechurch.org/events.html</loc>
-    <lastmod>2019-01-02</lastmod>
+    <lastmod>2019-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/events.html"/>
@@ -245,9 +207,6 @@
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/aboutbkgrnd-crop-u10125.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/lifechurchexterior-crop-u9863.jpg</image:loc>
@@ -274,10 +233,6 @@
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/lifeeventscenter.png</image:loc>
-      <image:caption>Life Events Center</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/aboutbkgrnd-crop-u101252.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/lifechurchexterior-crop-u98632.jpg</image:loc>
@@ -301,9 +256,6 @@
     <image:image>
       <image:loc>http://iamlifechurch.org/images/img9536821-crop-u97892.jpg</image:loc>
       <image:caption>Life Events Center Interior</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/aboutbkgrnd-crop-u101253.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/lifechurchexterior-crop-u98633.jpg</image:loc>
@@ -353,9 +305,6 @@
       <image:loc>http://iamlifechurch.org/images/youtube26x26_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/aboutbkgrnd-crop-u101254.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://iamlifechurch.org/images/lifechurchexterior-crop-u98634.jpg</image:loc>
     </image:image>
     <image:image>
@@ -378,13 +327,34 @@
       <image:loc>http://iamlifechurch.org/images/img9536821-crop-u97894.jpg</image:loc>
       <image:caption>Life Events Center Interior</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/lifeevents4-crop-u28607.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/lifeevents4-crop-u286072.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/lifeeventscenter489x126.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/lifeevents4-crop-u286073.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/lifeeventscenter485x125.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/lifeevents4881x429.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/lifeeventscenter440x113.png</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>http://iamlifechurch.org/contact-us.html</loc>
-    <lastmod>2019-01-02</lastmod>
+    <loc>http://iamlifechurch.org/prayer.html</loc>
+    <lastmod>2019-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/contact-us.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/prayer.html"/>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
     </image:image>
@@ -398,26 +368,8 @@
       <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/img9536561-crop-u8904.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/lifechurchcontact-crop-u10189.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/contactus1.png</image:loc>
-      <image:caption>Life Church International Contact Us</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/lifechurchcontact-crop-u101892.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/img9536561-crop-u89042.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/lifechurchcontact-crop-u101893.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/img9536561-crop-u89043.jpg</image:loc>
+      <image:loc>http://iamlifechurch.org/images/prayerrequest.png</image:loc>
+      <image:caption>Life Church Prayer Request</image:caption>
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2_2x.png</image:loc>
@@ -432,21 +384,21 @@
       <image:loc>http://iamlifechurch.org/images/copyright_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i627x27.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/prayer-crop-u6317.jpg</image:loc>
+      <image:caption>Life Church Prayer Request</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i627x27_2x.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/prayer-crop-u63172.jpg</image:loc>
+      <image:caption>Life Church Prayer Request</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/lifechurchcontact-crop-u101894.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/img9536561-crop-u89044.jpg</image:loc>
+      <image:loc>http://iamlifechurch.org/images/prayer-crop-u63173.jpg</image:loc>
+      <image:caption>Life Church Prayer Request</image:caption>
     </image:image>
   </url>
   <url>
     <loc>http://iamlifechurch.org/get-involved.html</loc>
-    <lastmod>2019-01-02</lastmod>
+    <lastmod>2019-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/get-involved.html"/>
@@ -535,13 +487,22 @@
     <image:image>
       <image:loc>http://iamlifechurch.org/images/copyright9x9_2x.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/givewhite.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/givewhite125x35.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/givewhite98x28.png</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>http://iamlifechurch.org/about-us.html</loc>
-    <lastmod>2019-01-02</lastmod>
+    <loc>http://iamlifechurch.org/contact-us.html</loc>
+    <lastmod>2019-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/about-us.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/contact-us.html"/>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
     </image:image>
@@ -555,20 +516,17 @@
       <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/joshua-ness-109309-unsplash-crop-u7789.jpg</image:loc>
+      <image:loc>http://iamlifechurch.org/images/img9536561-crop-u8904.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/drbarr.png</image:loc>
+      <image:loc>http://iamlifechurch.org/images/contactus1.png</image:loc>
+      <image:caption>Life Church International Contact Us</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/erica2.jpg</image:loc>
+      <image:loc>http://iamlifechurch.org/images/img9536561-crop-u89042.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/meetourleaders.png</image:loc>
-      <image:caption>About Us - Meet Our Leaders</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>http://iamlifechurch.org/images/barrs7.jpg</image:loc>
+      <image:loc>http://iamlifechurch.org/images/img9536561-crop-u89043.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://iamlifechurch.org/images/life2_2x.png</image:loc>
@@ -583,18 +541,42 @@
       <image:loc>http://iamlifechurch.org/images/copyright_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/joshua-ness-109309-unsplash-crop-u77892.jpg</image:loc>
+      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i627x27.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/joshua-ness-109309-unsplash-crop-u77893.jpg</image:loc>
+      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i627x27_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://iamlifechurch.org/images/barrs7348x282.jpg</image:loc>
+      <image:loc>http://iamlifechurch.org/images/img9536561-crop-u89044.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/contactusbck.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/givebox163x55.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/contactusbck1024x542.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/givebox142x48.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/contactusbck980x518.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/givebox135x46.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/contactusbck768x406.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/givebox156x53.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://iamlifechurch.org/study.html</loc>
-    <lastmod>2019-01-02</lastmod>
+    <lastmod>2019-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -688,19 +670,75 @@
     </image:image>
   </url>
   <url>
+    <loc>http://iamlifechurch.org/about-us.html</loc>
+    <lastmod>2019-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://iamlifechurch.org/phone/about-us.html"/>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/life2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/youtube.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/copyright.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/joshua-ness-109309-unsplash-crop-u7789.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/drbarr.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/meetourleaders.png</image:loc>
+      <image:caption>About Us - Meet Our Leaders</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/barrs7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/life2_2x.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/facebook-logo-png-white-i6_2x.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/youtube_2x.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/copyright_2x.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/joshua-ness-109309-unsplash-crop-u77892.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/joshua-ness-109309-unsplash-crop-u77893.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/barrs7348x282.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/erica.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/erica211x256.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://iamlifechurch.org/images/erica210x253.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>http://iamlifechurch.org/assets/joshua-ness-109309-unsplash.jpg</loc>
     <lastmod>2018-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://iamlifechurch.org/assets/give2.png</loc>
-    <lastmod>2018-12-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://iamlifechurch.org/assets/lifechurchdonate.png</loc>
+    <loc>http://iamlifechurch.org/assets/donate2.png</loc>
     <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -712,7 +750,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://iamlifechurch.org/assets/give1.png</loc>
+    <loc>http://iamlifechurch.org/assets/give2.png</loc>
     <lastmod>2018-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
