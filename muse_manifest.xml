@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="iamlifechurch.org" resolutions="1x,2x" timestamp="1546553800993">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="iamlifechurch.org" resolutions="1x,2x" timestamp="1546555098468">
   <folder name="tablet">
     <folder name="css">
       <file name="master_a-master.css" crc="136084178" ref="tablet>about-us:tablet>index:tablet>prayer:tablet>contact-us:tablet>testimony:tablet>get-involved:tablet>events"/>
@@ -28,30 +28,30 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_a-master.css" crc="376532719" ref="phone>prayer:phone>testimony:phone>contact-us:phone>index:phone>events:phone>about-us:phone>get-involved"/>
+      <file name="master_a-master.css" crc="222845473" ref="phone>prayer:phone>testimony:phone>contact-us:phone>index:phone>events:phone>about-us:phone>get-involved"/>
       <file name="prayer.css" crc="4171055220" ref="phone>prayer"/>
       <file name="testimony.css" crc="4200932042" ref="phone>testimony"/>
       <file name="contact-us.css" crc="4198141383" ref="phone>contact-us"/>
-      <file name="index.css" crc="3876291178" ref="phone>index"/>
+      <file name="index.css" crc="3956815015" ref="phone>index"/>
       <file name="events.css" crc="99925770" ref="phone>events"/>
-      <file name="about-us.css" crc="3805174472" ref="phone>about-us"/>
+      <file name="about-us.css" crc="270415795" ref="phone>about-us"/>
       <file name="get-involved.css" crc="19333289" ref="phone>get-involved"/>
-      <file name="nomq_preview_master_a-master.css" crc="323556243" ref="phone>index:phone>prayer:phone>get-involved:phone>events:phone>about-us:phone>contact-us:phone>testimony"/>
-      <file name="nomq_index.css" crc="420749880" ref="phone>index"/>
+      <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="phone>index:phone>prayer:phone>get-involved:phone>events:phone>about-us:phone>contact-us:phone>testimony"/>
+      <file name="nomq_index.css" crc="3885750259" ref="phone>index"/>
       <file name="nomq_prayer.css" crc="4004465493" ref="phone>prayer"/>
       <file name="nomq_get-involved.css" crc="466564294" ref="phone>get-involved"/>
       <file name="nomq_events.css" crc="147972854" ref="phone>events"/>
-      <file name="nomq_about-us.css" crc="4024796059" ref="phone>about-us"/>
+      <file name="nomq_about-us.css" crc="113472110" ref="phone>about-us"/>
       <file name="nomq_contact-us.css" crc="163214472" ref="phone>contact-us"/>
       <file name="nomq_testimony.css" crc="127705630" ref="phone>testimony"/>
     </folder>
-    <file name="about-us.html" crc="3770770603" seo="true" mt="1546553494672" redirect="true"/>
+    <file name="about-us.html" crc="3827340352" seo="true" mt="1546555020141" redirect="true"/>
     <file name="get-involved.html" crc="83182233" seo="true" mt="1546543270257" redirect="true"/>
     <file name="prayer.html" crc="4172286967" seo="true" mt="1546543456090" redirect="true"/>
     <file name="testimony.html" crc="312838212" seo="true" mt="1546543517354" redirect="true"/>
     <file name="events.html" crc="4050570555" seo="true" mt="1546543630006" redirect="true"/>
     <file name="contact-us.html" crc="4084038456" seo="true" mt="1546543677283" redirect="true"/>
-    <file name="index.html" crc="3880326583" seo="true" mt="1546553450547" redirect="true"/>
+    <file name="index.html" crc="4089858452" seo="true" mt="1546554961971" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3813440122"/>
@@ -301,8 +301,6 @@
     <file name="life church.png" crc="152471065" seo="true" ref="phone>index:tablet>index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="u11424-4.png" crc="329019523" ref="phone>index"/>
     <file name="35587_he_is_risen-crop-u11455.jpg" crc="3914649883" seo="true" ref="phone>index">
@@ -320,12 +318,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="u11424-42.png" crc="3790035773" ref="phone>index"/>
-    <file name="35587_he_is_risen-crop-u114552.jpg" crc="4114875122" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="freely-jd-mason-61831-crop-u115032.jpg" crc="358268775" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="u115292.png" crc="4285619761" ref="phone>index"/>
     <file name="u11529-r2.png" crc="227624316" ref="phone>index"/>
     <file name="withus-crop-u115832.png" crc="57812053" seo="true" ref="phone>index">
@@ -408,10 +400,8 @@
     </file>
     <file name="copyright11x11.png" crc="483785109" seo="true" ref="phone>about-us">
       <caption webpage="about-us" alt=""/>
-      <caption webpage="about-us" alt=""/>
     </file>
     <file name="copyright11x11_2x.png" crc="4109909281" seo="true" ref="phone>about-us">
-      <caption webpage="about-us" alt=""/>
       <caption webpage="about-us" alt=""/>
     </file>
     <file name="u11424-4_2x.png" crc="3784686342" ref="phone>index"/>
@@ -421,8 +411,8 @@
     <file name="freely-jd-mason-61831-crop-u11503_2x.jpg" crc="4262428614" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u11529_2x.png" crc="61847732" ref="phone>index"/>
-    <file name="u11529-r_2x.png" crc="4081613800" ref="phone>index"/>
+    <file name="u11529_2x.png" crc="4042341952" ref="phone>index"/>
+    <file name="u11529-r_2x.png" crc="229461632" ref="phone>index"/>
     <file name="19018_lifting_hands_in_prayer_2x.jpg" crc="262147363" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
@@ -433,14 +423,8 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="u11424-4_2x2.png" crc="4054406117" ref="phone>index"/>
-    <file name="35587_he_is_risen-crop-u11455_2x2.jpg" crc="4182492410" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="freely-jd-mason-61831-crop-u11503_2x2.jpg" crc="3776379239" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u11529_2x2.png" crc="38135831" ref="phone>index"/>
-    <file name="u11529-r_2x2.png" crc="4144042459" ref="phone>index"/>
+    <file name="u11529_2x2.png" crc="42242688" ref="phone>index"/>
+    <file name="u11529-r_2x2.png" crc="4275638273" ref="phone>index"/>
     <file name="19018_lifting_hands_in_prayer210x168.jpg" crc="24461344" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
@@ -681,9 +665,6 @@
     <file name="rosie-fraser-592594-unsplash-crop-u11491_2x.jpg" crc="229657254" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="lifechurchworship-crop-u114262.png" crc="123335354" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="rosie-fraser-592594-unsplash-crop-u114912.jpg" crc="4174088106" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
@@ -691,7 +672,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="pray72x54.png" crc="4172598710" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="favicon.ico" crc="72354029" ref="phone>about-us"/>
@@ -850,12 +830,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="givewhite119x34.png" crc="490398332" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="lifechurch7-crop-u114292.jpg" crc="4235683055" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="lifechurch7-crop-u11429_2x2.jpg" crc="4154800815" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="givewhite100x29.png" crc="490398332" seo="true" ref="phone>index">
@@ -1513,6 +1487,33 @@
     <file name="u7835-r_2x3.png" crc="4106598709" ref="about-us"/>
     <file name="erica166x201.png" crc="4099887145" seo="true" ref="about-us">
       <caption webpage="about-us" alt=""/>
+    </file>
+    <file name="life2146x37.png" crc="420376798" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="life2146x37_2x.png" crc="4053359230" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="lifechurch7325x244.jpg" crc="4271946258" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="lifechurch7325x244_2x.jpg" crc="5024934" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="lifechurchworship314x95.png" crc="4187638161" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="35587_he_is_risen259x162.jpg" crc="254571354" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="35587_he_is_risen259x162_2x.jpg" crc="388483143" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="freely-jd-mason-61831252x168.jpg" crc="4154645413" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="freely-jd-mason-61831252x168_2x.jpg" crc="270305601" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
     </file>
   </folder>
   <file name="get-involved.html" crc="530362774" seo="true" mt="1546552946658" redirect="true"/>
