@@ -12,7 +12,7 @@
    // Redirect to phone/tablet as necessary
 (function(c,b,d){var a=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var d=a[b]+"MaxTouchPoints";if(d in navigator&&navigator[d])return!0}try{return document.createEvent("TouchEvent"),!0}catch(f){}return!1}(),f=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var d=b[c];d.charAt(0)==" ";)d=d.substring(1,d.length);if(d.indexOf(a)==
 0)return d.substring(a.length,d.length)}return null};if(f("inbrowserediting")!="true"){var h,f=f("devicelock");f=="phone"&&d?h=d:f=="tablet"&&b&&(h=b);if(f!=c&&!h)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&d?h=d:window.matchMedia("(max-device-width: 960px)").matches&&b&&a&&(h=b);else{var c=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),f=window.screen.systemXDPI||0,g=window.screen.systemYDPI||0,f=f>0&&g>0?Math.min(screen.width/f,screen.height/g):
-0;(c<=370||f!=0&&f<=3)&&d?h=d:c<=960&&b&&a&&(h=b)}if(h)document.location=h+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/get-involved.html");
+0;(c<=370||f!=0&&f<=3)&&d?h=d:c<=960&&b&&a&&(h=b)}if(h)document.location=h+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","tablet/get-involved.html","phone/get-involved.html");
 
 // Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
@@ -22,16 +22,17 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 </script>
   
   <link media="only screen and (max-width: 370px)" rel="alternate" href="http://iamlifechurch.org/phone/get-involved.html"/>
+  <link media="only screen and (max-width: 960px)" rel="alternate" href="http://iamlifechurch.org/tablet/get-involved.html"/>
   <link rel="shortcut icon" href="images/favicon.ico?crc=72354029"/>
   <title>Get Involved</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3813440122"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4040978567"/>
-  <link rel="stylesheet" type="text/css" href="css/get-involved.css?crc=300027129" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/get-involved.css?crc=4058343037" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=94848284"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_get-involved.css?crc=4079691716" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_get-involved.css?crc=411300760" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -39,7 +40,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 </script>
   <!-- JS includes -->
   <script src="https://webfonts.creativecloud.com/dosis:n3,n7:default.js" type="text/javascript"></script>
-  <script src="https://use.typekit.net/ik/D4PsCN3YHhjcSsL3U6deDzI7qWiih6YKR4syN5ftO_3feTqgfOPe9sJGwQwkFDqkFBvtZRZKw2bUFDmRwQbojQ6ajRwUZAIXFRj3ZQJhFRFyjsG_HKoTjAuC-AZ8jhyuScFGOcNkZkUTjAuC-AZ8jhyuScFGOcNkZkUaiaS0-ABlde8cZAFGiW4R-fozScSKgagzSYgTd1w7f6KbTbJbMg6eJMJ7f6K4TbJbMg62JM4HgIuuShAbMdRb05IB.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/3DPv5CMaYklHvf8uL6EkALWmpEQ_qAn9YEP4N-p58hvfeTqgfOPe9sJGwQwkFDqkFBvtZRZKw2bUFDmRwQbojQ6ajRwUZAIXFRj3ZQJhFRFyjsG_HKoTjAuC-AZ8jhyuScFGOcNkZkUTjAuC-AZ8jhyuScFGOcNkZkUaiaS0-ABlde8cZAFGiW4R-fozScSKgagzSYgTd1w7f6KbTbJbMg6eJMJ7f6K4TbJbMg62JM4HgIuuShAbM-rQ00IB.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -121,7 +122,7 @@ to use and available for download at: http://adobemuseexpert.com/
        <div class="gradient" id="u5765"><!-- group -->
         <div class="clearfix" id="u5765_align_to_page">
          <div class="clip_frame grpelem" id="u4112"><!-- image -->
-          <img class="block temp_no_img_src" id="u4112_img" data-orig-src="images/life2.png?crc=4150595060" data-hidpi-src="images/life2_2x.png?crc=3935290382" alt="" data-heightwidthratio="0.255" data-image-width="200" data-image-height="51" src="images/blank.gif?crc=4208392903"/>
+          <img class="block temp_no_img_src" id="u4112_img" data-orig-src="images/life2201x51.png?crc=4264657180" data-hidpi-src="images/life2201x51_2x.png?crc=4281807864" alt="" data-heightwidthratio="0.255" data-image-width="200" data-image-height="51" src="images/blank.gif?crc=4208392903"/>
          </div>
          <div class="clearfix grpelem shared_content" id="u4114-4" data-content-guid="u4114-4_content"><!-- content -->
           <p id="u4114-2"><span class="Menu-Buttons" id="u4114">ABOUT US</span></p>
@@ -157,10 +158,10 @@ to use and available for download at: http://adobemuseexpert.com/
       <div class="clip_frame grpelem" id="u6062"><!-- image -->
        <img class="block temp_no_img_src" id="u6062_img" data-orig-src="images/getinvolved4.png?crc=206898311" alt="Life Church Transform the World" title="Life Church Get Involved" data-heightwidthratio="0.48557353976073186" data-image-width="1421" data-image-height="690" src="images/blank.gif?crc=4208392903"/>
       </div>
-      <div class="browser_width grpelem shared_content" id="u6144-bw" data-content-guid="u6144-bw_content">
+      <div class="browser_width grpelem" id="u6144-bw">
        <div id="u6144"><!-- group -->
         <div class="clearfix" id="u6144_align_to_page">
-         <div class="basic clearfix grpelem" id="u6147-6"><!-- content -->
+         <div class="basic clearfix grpelem shared_content" id="u6147-6" data-content-guid="u6147-6_content"><!-- content -->
           <p id="u6147-2">Ministry Opportunities</p>
           <p>The ministry opportunities at Life Church International allow you to get involved in your church and community. If you are interested in volunteering to serve and minister with us please sign up below.</p>
          </div>
@@ -172,7 +173,7 @@ to use and available for download at: http://adobemuseexpert.com/
       <a class="nonblock nontext clearfix grpelem shared_content" id="u6152-4" href="study.html" data-content-guid="u6152-4_content"><!-- content --><p id="u6152-2"><span class="Menu-Buttons" id="u6152">STUDY</span></p></a>
       <a class="nonblock nontext clip_frame grpelem" id="u6153" href="https://www.facebook.com/iamlifechurchinternational"><!-- image --><img class="block temp_no_img_src" id="u6153_img" data-orig-src="images/facebook-logo-png-white-i6.png?crc=337920342" data-hidpi-src="images/facebook-logo-png-white-i6_2x.png?crc=253647330" alt="" data-heightwidthratio="1" data-image-width="31" data-image-height="31" src="images/blank.gif?crc=4208392903"/></a>
       <a class="nonblock nontext clip_frame grpelem" id="u6155" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?"><!-- image --><img class="block temp_no_img_src" id="u6155_img" data-orig-src="images/youtube.png?crc=219723689" data-hidpi-src="images/youtube_2x.png?crc=406841145" alt="" data-heightwidthratio="1" data-image-width="30" data-image-height="30" src="images/blank.gif?crc=4208392903"/></a>
-      <a class="nonblock nontext clip_frame grpelem" id="u6157" href="index.html"><!-- image --><img class="block temp_no_img_src" id="u6157_img" data-orig-src="images/life2.png?crc=4150595060" data-hidpi-src="images/life2_2x.png?crc=3935290382" alt="" data-heightwidthratio="0.255" data-image-width="200" data-image-height="51" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext grpelem shared_content" id="u6157" href="index.html" data-content-guid="u6157_content"><!-- state-based BG images --><div class="fluid_height_spacer"></div></a>
       <a class="nonblock nontext clearfix grpelem shared_content" id="u6159-4" href="about-us.html" data-content-guid="u6159-4_content"><!-- content --><p id="u6159-2"><span class="Menu-Buttons" id="u6159">ABOUT US</span></p></a>
       <a class="nonblock nontext clearfix grpelem shared_content" id="u6160-4" href="testimony.html" data-content-guid="u6160-4_content"><!-- content --><p id="u6160-2"><span class="Menu-Buttons" id="u6160">TESTIMONY</span></p></a>
       <a class="nonblock nontext clearfix grpelem shared_content" id="u6161-4" href="events.html" data-content-guid="u6161-4_content"><!-- content --><p id="u6161-2"><span class="Menu-Buttons" id="u6161">EVENTS</span></p></a>
@@ -218,12 +219,16 @@ to use and available for download at: http://adobemuseexpert.com/
          <p>&nbsp;</p>
         </div>
         <div class="clip_frame grpelem" id="u3333"><!-- image -->
-         <img class="block temp_no_img_src" id="u3333_img" data-orig-src="images/copyright.png?crc=379899619" data-hidpi-src="images/copyright_2x.png?crc=4238721441" alt="" data-heightwidthratio="1" data-image-width="13" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
+         <img class="block temp_no_img_src" id="u3333_img" data-orig-src="images/copyright13x13.png?crc=435497514" data-hidpi-src="images/copyright13x13_2x.png?crc=4149983038" alt="" data-heightwidthratio="1" data-image-width="13" data-image-height="13" src="images/blank.gif?crc=4208392903"/>
         </div>
        </div>
       </div>
      </div>
     </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u6157-r.png?crc=318584275" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u6157-r_2x.png?crc=51988062" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_980" data-min-width="769" data-max-width="980"><!-- responsive breakpoint node -->
@@ -239,7 +244,7 @@ to use and available for download at: http://adobemuseexpert.com/
       <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.facebook.com/iamlifechurchinternational" data-orig-id="u4108"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/facebook-logo-png-white-i626x26.png?crc=299740213" data-hidpi-src="images/facebook-logo-png-white-i626x26_2x.png?crc=253647330" alt="" data-heightwidthratio="1" data-image-width="26" data-image-height="26" data-orig-id="u4108_img" src="images/blank.gif?crc=4208392903"/></a>
       <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?" data-orig-id="u4110"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/youtube25x25.png?crc=534454035" data-hidpi-src="images/youtube25x25_2x.png?crc=3934749881" alt="" data-heightwidthratio="1" data-image-width="25" data-image-height="25" data-orig-id="u4110_img" src="images/blank.gif?crc=4208392903"/></a>
       <div class="clip_frame grpelem temp_no_id" data-orig-id="u4112"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/life2167x43.png?crc=3773713796" data-hidpi-src="images/life2167x43_2x.png?crc=29925922" alt="" data-heightwidthratio="0.25301204819277107" data-image-width="166" data-image-height="42" data-orig-id="u4112_img" src="images/blank.gif?crc=4208392903"/>
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/life2167x43.png?crc=504200451" data-hidpi-src="images/life2167x43_2x.png?crc=3789419476" alt="" data-heightwidthratio="0.25301204819277107" data-image-width="166" data-image-height="42" data-orig-id="u4112_img" src="images/blank.gif?crc=4208392903"/>
       </div>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u4114-4_content"><!-- placeholder node --></span>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u4115-4_content"><!-- placeholder node --></span>
@@ -248,14 +253,16 @@ to use and available for download at: http://adobemuseexpert.com/
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u9430_content"><!-- placeholder node --></span>
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u20643_content"><!-- placeholder node --></span>
       <div class="clip_frame grpelem temp_no_id" data-orig-id="u6062"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/getinvolved41181x573.png?crc=180737186" alt="Life Church Transform the World" title="Life Church Get Involved" data-heightwidthratio="0.48518204911092294" data-image-width="1181" data-image-height="573" data-orig-id="u6062_img" src="images/blank.gif?crc=4208392903"/>
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/getinvolved4-crop-u6062.png?crc=3853124937" alt="Life Church Transform the World" title="Life Church Get Involved" data-heightwidthratio="0.5846938775510204" data-image-width="980" data-image-height="573" data-orig-id="u6062_img" src="images/blank.gif?crc=4208392903"/>
       </div>
-      <span class="grpelem placeholder" data-placeholder-for="u8978_content"><!-- placeholder node --></span>
+      <div class="browser_width grpelem" id="u8978-bw">
+       <span class="placeholder" data-placeholder-for="u8978_content"><!-- placeholder node --></span>
+      </div>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6151-4_content"><!-- placeholder node --></span>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6152-4_content"><!-- placeholder node --></span>
       <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.facebook.com/iamlifechurchinternational" data-orig-id="u6153"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/facebook-logo-png-white-i626x26.png?crc=299740213" data-hidpi-src="images/facebook-logo-png-white-i626x26_2x.png?crc=253647330" alt="" data-heightwidthratio="1" data-image-width="26" data-image-height="26" data-orig-id="u6153_img" src="images/blank.gif?crc=4208392903"/></a>
       <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?" data-orig-id="u6155"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/youtube25x25.png?crc=534454035" data-hidpi-src="images/youtube25x25_2x.png?crc=3934749881" alt="" data-heightwidthratio="1" data-image-width="25" data-image-height="25" data-orig-id="u6155_img" src="images/blank.gif?crc=4208392903"/></a>
-      <a class="nonblock nontext clip_frame grpelem temp_no_id" href="index.html" data-orig-id="u6157"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/life2167x43.png?crc=3773713796" data-hidpi-src="images/life2167x43_2x.png?crc=29925922" alt="" data-heightwidthratio="0.25301204819277107" data-image-width="166" data-image-height="42" data-orig-id="u6157_img" src="images/blank.gif?crc=4208392903"/></a>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6157_content"><!-- placeholder node --></span>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6159-4_content"><!-- placeholder node --></span>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6160-4_content"><!-- placeholder node --></span>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6161-4_content"><!-- placeholder node --></span>
@@ -263,7 +270,12 @@ to use and available for download at: http://adobemuseexpert.com/
       <span class="nonblock nontext MuseLinkActive clearfix grpelem placeholder" data-placeholder-for="u7888-4_content"><!-- placeholder node --></span>
       <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.paypal.com/donate/?token=g1myFPX4c77Q6v4TaEVTYsyGuevkPH58gXp6Mr9TZMtt-UFmJqbUyX3aHDVBBSMFE7QM0m&amp;country.x=US&amp;locale.x=US" data-orig-id="u31239"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/givewhite125x35.png?crc=490398332" alt="" data-heightwidthratio="0.28" data-image-width="125" data-image-height="35" data-orig-id="u31239_img" src="images/blank.gif?crc=4208392903"/></a>
      </div>
-     <span class="browser_width colelem placeholder" data-placeholder-for="u6144-bw_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem shared_content" id="pu6144" data-content-guid="pu6144_content"><!-- group -->
+      <div class="grpelem temp_no_id" data-orig-id="u6144"><!-- simple frame -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+      <span class="basic clearfix grpelem placeholder" data-placeholder-for="u6147-6_content"><!-- placeholder node --></span>
+     </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu8419_content"><!-- placeholder node --></span>
     </div>
     <div class="verticalspacer" data-offset-top="1344" data-content-above-spacer="1343" data-content-below-spacer="51" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
@@ -279,12 +291,16 @@ to use and available for download at: http://adobemuseexpert.com/
        <div class="clearfix temp_no_id" data-orig-id="u3077_align_to_page">
         <span class="clearfix grpelem placeholder" data-placeholder-for="u3080-6_content"><!-- placeholder node --></span>
         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3333"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/copyright11x11.png?crc=8880846" data-hidpi-src="images/copyright11x11_2x.png?crc=3854258172" alt="" data-heightwidthratio="1" data-image-width="11" data-image-height="11" data-orig-id="u3333_img" src="images/blank.gif?crc=4208392903"/>
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/copyright11x11.png?crc=483785109" data-hidpi-src="images/copyright11x11_2x.png?crc=4109909281" alt="" data-heightwidthratio="1" data-image-width="11" data-image-height="11" data-orig-id="u3333_img" src="images/blank.gif?crc=4208392903"/>
         </div>
        </div>
       </div>
      </div>
     </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u6157-r2.png?crc=437337830" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u6157-r_2x2.png?crc=44570380" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_768" data-max-width="768"><!-- responsive breakpoint node -->
@@ -298,7 +314,7 @@ to use and available for download at: http://adobemuseexpert.com/
       <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.facebook.com/iamlifechurchinternational" data-orig-id="u4108"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/facebook-logo-png-white-i620x20.png?crc=358732389" data-hidpi-src="images/facebook-logo-png-white-i620x20_2x.png?crc=4291739863" alt="" data-heightwidthratio="1" data-image-width="20" data-image-height="20" data-orig-id="u4108_img" src="images/blank.gif?crc=4208392903"/></a>
       <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?" data-orig-id="u4110"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/youtube20x20.png?crc=3769476084" data-hidpi-src="images/youtube20x20_2x.png?crc=497414998" alt="" data-heightwidthratio="1" data-image-width="19" data-image-height="19" data-orig-id="u4110_img" src="images/blank.gif?crc=4208392903"/></a>
       <div class="clip_frame grpelem temp_no_id" data-orig-id="u4112"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/life2131x33.png?crc=227564530" data-hidpi-src="images/life2131x33_2x.png?crc=4055504596" alt="" data-heightwidthratio="0.25384615384615383" data-image-width="130" data-image-height="33" data-orig-id="u4112_img" src="images/blank.gif?crc=4208392903"/>
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/life2131x33.png?crc=4163732449" data-hidpi-src="images/life2131x33_2x.png?crc=194322561" alt="" data-heightwidthratio="0.25384615384615383" data-image-width="130" data-image-height="33" data-orig-id="u4112_img" src="images/blank.gif?crc=4208392903"/>
       </div>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u4114-4_content"><!-- placeholder node --></span>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u4115-4_content"><!-- placeholder node --></span>
@@ -307,14 +323,16 @@ to use and available for download at: http://adobemuseexpert.com/
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u9430_content"><!-- placeholder node --></span>
       <span class="size_fixed grpelem placeholder" data-placeholder-for="u20643_content"><!-- placeholder node --></span>
       <div class="clip_frame grpelem temp_no_id" data-orig-id="u6062"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/getinvolved4926x450.png?crc=4237458473" alt="Life Church Transform the World" title="Life Church Get Involved" data-heightwidthratio="0.4854054054054054" data-image-width="925" data-image-height="449" data-orig-id="u6062_img" src="images/blank.gif?crc=4208392903"/>
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/getinvolved4-crop-u60622.png?crc=12064477" alt="Life Church Transform the World" title="Life Church Get Involved" data-heightwidthratio="0.5859375" data-image-width="768" data-image-height="450" data-orig-id="u6062_img" src="images/blank.gif?crc=4208392903"/>
       </div>
-      <span class="grpelem placeholder" data-placeholder-for="u8978_content"><!-- placeholder node --></span>
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u8978-bw">
+       <span class="placeholder" data-placeholder-for="u8978_content"><!-- placeholder node --></span>
+      </div>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6151-4_content"><!-- placeholder node --></span>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6152-4_content"><!-- placeholder node --></span>
       <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.facebook.com/iamlifechurchinternational" data-orig-id="u6153"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/facebook-logo-png-white-i620x20.png?crc=358732389" data-hidpi-src="images/facebook-logo-png-white-i620x20_2x.png?crc=4291739863" alt="" data-heightwidthratio="1" data-image-width="20" data-image-height="20" data-orig-id="u6153_img" src="images/blank.gif?crc=4208392903"/></a>
       <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.youtube.com/channel/UC0j6LdYbIiEUvPGAGrfPJlg?" data-orig-id="u6155"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/youtube20x20.png?crc=3769476084" data-hidpi-src="images/youtube20x20_2x.png?crc=497414998" alt="" data-heightwidthratio="1" data-image-width="19" data-image-height="19" data-orig-id="u6155_img" src="images/blank.gif?crc=4208392903"/></a>
-      <a class="nonblock nontext clip_frame grpelem temp_no_id" href="index.html" data-orig-id="u6157"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/life2131x33.png?crc=227564530" data-hidpi-src="images/life2131x33_2x.png?crc=4055504596" alt="" data-heightwidthratio="0.25384615384615383" data-image-width="130" data-image-height="33" data-orig-id="u6157_img" src="images/blank.gif?crc=4208392903"/></a>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6157_content"><!-- placeholder node --></span>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6159-4_content"><!-- placeholder node --></span>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6160-4_content"><!-- placeholder node --></span>
       <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u6161-4_content"><!-- placeholder node --></span>
@@ -322,10 +340,10 @@ to use and available for download at: http://adobemuseexpert.com/
       <span class="nonblock nontext MuseLinkActive clearfix grpelem placeholder" data-placeholder-for="u7888-4_content"><!-- placeholder node --></span>
       <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://www.paypal.com/donate/?token=g1myFPX4c77Q6v4TaEVTYsyGuevkPH58gXp6Mr9TZMtt-UFmJqbUyX3aHDVBBSMFE7QM0m&amp;country.x=US&amp;locale.x=US" data-orig-id="u31239"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="images/givewhite98x28.png?crc=4254814223" alt="" data-heightwidthratio="0.2755102040816326" data-image-width="98" data-image-height="27" data-orig-id="u31239_img" src="images/blank.gif?crc=4208392903"/></a>
      </div>
-     <span class="browser_width colelem placeholder" data-placeholder-for="u6144-bw_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu6144_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu8419_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="1256" data-content-above-spacer="1255" data-content-below-spacer="51" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="1223" data-content-above-spacer="1222" data-content-below-spacer="51" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu6128"><!-- column -->
      <div class="clip_frame colelem temp_no_id" data-orig-id="u6128"><!-- image -->
       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/getinvolved2.png?crc=302453151" alt="Get Involved with Ministry" title="Get Involved" data-heightwidthratio="0.3205574912891986" data-image-width="287" data-image-height="92" data-orig-id="u6128_img" src="images/blank.gif?crc=4208392903"/>
@@ -338,12 +356,16 @@ to use and available for download at: http://adobemuseexpert.com/
        <div class="clearfix temp_no_id" data-orig-id="u3077_align_to_page">
         <span class="clearfix grpelem placeholder" data-placeholder-for="u3080-6_content"><!-- placeholder node --></span>
         <div class="clip_frame grpelem temp_no_id" data-orig-id="u3333"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/copyright9x9.png?crc=396905594" data-hidpi-src="images/copyright9x9_2x.png?crc=289384780" alt="" data-heightwidthratio="1" data-image-width="8" data-image-height="8" data-orig-id="u3333_img" src="images/blank.gif?crc=4208392903"/>
+         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/copyright14x14.png?crc=435497514" data-hidpi-src="images/copyright14x14_2x.png?crc=4149983038" alt="" data-heightwidthratio="1" data-image-width="13" data-image-height="13" data-orig-id="u3333_img" src="images/blank.gif?crc=4208392903"/>
         </div>
        </div>
       </div>
      </div>
     </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/u6157-r3.png?crc=85725521" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u6157-r_2x3.png?crc=135781543" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <!-- JS includes -->
